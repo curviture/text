@@ -1,0 +1,45 @@
+@import "fonts";
+
+$bold: 'Conv_Circe-Bold';
+$border: 'Conv_Circe-ExtraBold';
+$light: 'Conv_CRC25';
+$regular: 'Conv_CRC35';
+$normal: 'Conv_CRC55';
+input[type='text']{
+  padding-left: 5px;
+}
+#calculator{
+  form{
+    ::-webkit-input-placeholder {
+      color: #ccc!important;
+    }
+    :-moz-placeholder {
+      color: #ccc!important;
+    }
+    ::-moz-placeholder {
+      color: #ccc!important;
+    }
+    :-ms-input-placeholder {
+      color: #ccc!important;
+    }
+  }
+  .form-control{
+    border: 1px solid #b4daf6;
+  }
+}
+
+//technical requirements styling
+
+.technical-task {
+  h2{
+    padding: 30px 0;
+  }
+  .radio-label{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    padding-left: 0;
+  }
+}
+

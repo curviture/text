@@ -1,0 +1,149 @@
+.ico_bank, .ico_credit-card, .ico_imac, .ico_magican, .ico_time,
+.ico_dart-board12, .ico_school, .ico_supermarket, .ico_text, .ico_rerait,
+.ico_copy, .ico_sell-text, .ico_book, .ico_browser, .ico_file,
+.ico_man, .ico_pen, .ico_pencil, .ico_shopping-cart, .ico_thumb-up,
+.ico_brows, .ico_light-bulb, .ico_microphone {
+  display: inline-block;
+  background: url("../img/sprite.png") no-repeat;
+  overflow: hidden;
+  text-indent: -9999px;
+  text-align: left;
+}
+
+.ico_bank {
+  background-position: -20px -0px;
+  width: 64px;
+  height: 64px;
+}
+
+.ico_credit-card {
+  background-position: -20px -84px;
+  width: 64px;
+  height: 48px;
+}
+
+.ico_imac {
+  background-position: -20px -152px;
+  width: 64px;
+  height: 64px;
+}
+
+.ico_magican {
+  background-position: -20px -236px;
+  width: 64px;
+  height: 64px;
+}
+
+.ico_time {
+  background-position: -20px -320px;
+  width: 64px;
+  height: 65px;
+}
+
+.ico_dart-board12 {
+  background-position: -20px -405px;
+  width: 63px;
+  height: 64px;
+}
+
+.ico_school {
+  background-position: -20px -489px;
+  width: 63px;
+  height: 64px;
+}
+
+.ico_supermarket {
+  background-position: -20px -573px;
+  width: 63px;
+  height: 64px;
+}
+
+.ico_text {
+  background-position: -20px -657px;
+  width: 63px;
+  height: 64px;
+}
+
+.ico_rerait {
+  background-position: -20px -741px;
+  width: 56px;
+  height: 50px;
+}
+
+.ico_copy {
+  background-position: -20px -811px;
+  width: 50px;
+  height: 51px;
+}
+
+.ico_sell-text {
+  background-position: -20px -882px;
+  width: 48px;
+  height: 51px;
+}
+
+.ico_book {
+  background-position: -20px -953px;
+  width: 16px;
+  height: 16px;
+}
+
+.ico_browser {
+  background-position: -20px -989px;
+  width: 16px;
+  height: 16px;
+}
+
+.ico_file {
+  background-position: -20px -1025px;
+  width: 16px;
+  height: 16px;
+}
+
+.ico_man {
+  background-position: -20px -1061px;
+  width: 16px;
+  height: 16px;
+}
+
+.ico_pen {
+  background-position: -20px -1097px;
+  width: 16px;
+  height: 16px;
+}
+
+.ico_pencil {
+  background-position: -20px -1133px;
+  width: 16px;
+  height: 16px;
+}
+
+.ico_shopping-cart {
+  background-position: -20px -1169px;
+  width: 16px;
+  height: 16px;
+}
+
+.ico_thumb-up {
+  background-position: -20px -1205px;
+  width: 16px;
+  height: 16px;
+}
+
+.ico_brows {
+  background-position: -20px -1241px;
+  width: 16px;
+  height: 16px;
+}
+
+.ico_light-bulb {
+  background-position: -20px -1277px;
+  width: 14px;
+  height: 16px;
+}
+
+.ico_microphone {
+  background-position: -20px -1313px;
+  width: 12px;
+  height: 16px;
+}

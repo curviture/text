@@ -1,0 +1,2505 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'owl' ]
+2 info using npm@2.14.4
+3 info using node@v4.1.1
+4 verbose install initial load of C:\Users\kanta\Desktop\server\text2.new\package.json
+5 verbose readDependencies loading dependencies from C:\Users\kanta\Desktop\server\text2.new\package.json
+6 silly cache add args [ 'owl', null ]
+7 verbose cache add spec owl
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'owl',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'owl',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed owl@*
+10 verbose addNamed "*" is a valid semver range for owl
+11 silly addNameRange { name: 'owl', range: '*', hasData: false }
+12 silly mapToRegistry name owl
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/owl
+16 verbose addNameRange registry:https://registry.npmjs.org/owl not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/owl
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 10:34:44
+20 verbose request id 6b64da8fc7f41365
+21 verbose etag "EJ9D2WRSXP4KEHHYXMI8P5DDZ"
+22 http request GET https://registry.npmjs.org/owl
+23 http 304 https://registry.npmjs.org/owl
+24 silly get cb [ 304,
+24 silly get   { date: 'Tue, 10 Nov 2015 06:34:47 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     'cache-control': 'max-age=60',
+24 silly get     etag: '"EJ9D2WRSXP4KEHHYXMI8P5DDZ"',
+24 silly get     age: '0',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-fra1247-FRA',
+24 silly get     'x-cache': 'MISS',
+24 silly get     'x-cache-hits': '0',
+24 silly get     'x-timer': 'S1447137287.479898,VS0,VE182',
+24 silly get     vary: 'Accept' } ]
+25 verbose etag https://registry.npmjs.org/owl from cache
+26 verbose get saving owl to C:\Users\kanta\AppData\Roaming\npm-cache\registry.npmjs.org\owl\.cache.json
+27 silly addNameRange number 2 { name: 'owl', range: '*', hasData: true }
+28 silly addNameRange versions [ 'owl', [ '0.0.2', '0.0.3', '0.0.4', '0.0.6' ] ]
+29 silly addNamed owl@0.0.6
+30 verbose addNamed "0.0.6" is a plain semver version for owl
+31 silly cache afterAdd owl@0.0.6
+32 verbose afterAdd C:\Users\kanta\AppData\Roaming\npm-cache\owl\0.0.6\package\package.json not in flight; writing
+33 verbose afterAdd C:\Users\kanta\AppData\Roaming\npm-cache\owl\0.0.6\package\package.json written
+34 silly install resolved [ { author:
+34 silly install resolved      { name: 'Conner Petzold',
+34 silly install resolved        email: 'cpetzold@gmail.com',
+34 silly install resolved        url: 'http://the0th.com' },
+34 silly install resolved     name: 'owl',
+34 silly install resolved     description: 'markdown blogging system built on mongoose',
+34 silly install resolved     version: '0.0.6',
+34 silly install resolved     repository: { url: 'git+https://github.com/cpetzold/owl.git' },
+34 silly install resolved     dependencies:
+34 silly install resolved      { mongoose: '2.4.x',
+34 silly install resolved        watch: '0.5.x',
+34 silly install resolved        async: '0.1.x',
+34 silly install resolved        marked: '0.1.x',
+34 silly install resolved        highlight: '0.2.x',
+34 silly install resolved        gravatar: '1.0.x',
+34 silly install resolved        MD5: '0.0.x' },
+34 silly install resolved     devDependencies: { should: '0.5.x' },
+34 silly install resolved     engines: { node: '>=0.6.0' },
+34 silly install resolved     optionalDependencies: {},
+34 silly install resolved     _npmUser: { name: 'cpetzold', email: 'cpetzold@gmail.com' },
+34 silly install resolved     _id: 'owl@0.0.6',
+34 silly install resolved     _engineSupported: true,
+34 silly install resolved     _npmVersion: '1.1.10',
+34 silly install resolved     _nodeVersion: 'v0.6.13',
+34 silly install resolved     _defaultsLoaded: true,
+34 silly install resolved     dist:
+34 silly install resolved      { shasum: '9d64a98f7d433c90dba199e1cf39079a2fbb595a',
+34 silly install resolved        tarball: 'http://registry.npmjs.org/owl/-/owl-0.0.6.tgz' },
+34 silly install resolved     maintainers: [ [Object] ],
+34 silly install resolved     directories: {},
+34 silly install resolved     _shasum: '9d64a98f7d433c90dba199e1cf39079a2fbb595a',
+34 silly install resolved     _resolved: 'https://registry.npmjs.org/owl/-/owl-0.0.6.tgz',
+34 silly install resolved     _from: 'owl@*',
+34 silly install resolved     bugs: { url: 'https://github.com/cpetzold/owl/issues' },
+34 silly install resolved     readme: 'ERROR: No README data found!',
+34 silly install resolved     homepage: 'https://github.com/cpetzold/owl#readme' } ]
+35 info install owl@0.0.6 into C:\Users\kanta\Desktop\server\text2.new
+36 info installOne owl@0.0.6
+37 verbose installOne of owl to C:\Users\kanta\Desktop\server\text2.new not in flight; installing
+38 verbose lock using C:\Users\kanta\AppData\Roaming\npm-cache\_locks\owl-7ab9f5b1fe33354c.lock for C:\Users\kanta\Desktop\server\text2.new\node_modules\owl
+39 silly install write writing owl 0.0.6 to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl
+40 verbose unbuild node_modules\owl
+41 silly gentlyRm C:\Users\kanta\Desktop\server\text2.new\node_modules\owl is being purged from base C:\Users\kanta\Desktop\server\text2.new
+42 verbose gentlyRm don't care about contents; nuking C:\Users\kanta\Desktop\server\text2.new\node_modules\owl
+43 verbose tar unpack C:\Users\kanta\AppData\Roaming\npm-cache\owl\0.0.6\package.tgz
+44 verbose tar unpacking to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl
+45 silly gentlyRm C:\Users\kanta\Desktop\server\text2.new\node_modules\owl is being purged
+46 verbose gentlyRm don't care about contents; nuking C:\Users\kanta\Desktop\server\text2.new\node_modules\owl
+47 silly gunzTarPerm modes [ '777', '666' ]
+48 silly gunzTarPerm extractEntry .npmignore
+49 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+50 silly gunzTarPerm extractEntry etc/
+51 silly gunzTarPerm modified mode [ 'etc/', 493, 511 ]
+52 silly gunzTarPerm extractEntry etc/logo.gif
+53 silly gunzTarPerm modified mode [ 'etc/logo.gif', 420, 438 ]
+54 silly gunzTarPerm extractEntry etc/logo.psd
+55 silly gunzTarPerm modified mode [ 'etc/logo.psd', 420, 438 ]
+56 silly gunzTarPerm extractEntry examples/
+57 silly gunzTarPerm modified mode [ 'examples/', 493, 511 ]
+58 silly gunzTarPerm extractEntry examples/express/
+59 silly gunzTarPerm modified mode [ 'examples/express/', 493, 511 ]
+60 silly gunzTarPerm extractEntry examples/express/blog.js
+61 silly gunzTarPerm modified mode [ 'examples/express/blog.js', 420, 438 ]
+62 silly gunzTarPerm extractEntry examples/simple/
+63 silly gunzTarPerm modified mode [ 'examples/simple/', 493, 511 ]
+64 silly gunzTarPerm extractEntry examples/simple/blog.js
+65 silly gunzTarPerm modified mode [ 'examples/simple/blog.js', 420, 438 ]
+66 silly gunzTarPerm extractEntry examples/simple/pages/
+67 silly gunzTarPerm modified mode [ 'examples/simple/pages/', 493, 511 ]
+68 silly gunzTarPerm extractEntry examples/simple/pages/example-page.md
+69 silly gunzTarPerm modified mode [ 'examples/simple/pages/example-page.md', 420, 438 ]
+70 silly gunzTarPerm extractEntry examples/simple/posts/
+71 silly gunzTarPerm modified mode [ 'examples/simple/posts/', 493, 511 ]
+72 silly gunzTarPerm extractEntry examples/simple/posts/example-post.md
+73 silly gunzTarPerm modified mode [ 'examples/simple/posts/example-post.md', 420, 438 ]
+74 silly gunzTarPerm extractEntry index.js
+75 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+76 silly gunzTarPerm extractEntry lib/
+77 silly gunzTarPerm modified mode [ 'lib/', 493, 511 ]
+78 silly gunzTarPerm extractEntry lib/blog.js
+79 silly gunzTarPerm modified mode [ 'lib/blog.js', 420, 438 ]
+80 silly gunzTarPerm extractEntry lib/comment.js
+81 silly gunzTarPerm modified mode [ 'lib/comment.js', 420, 438 ]
+82 silly gunzTarPerm extractEntry lib/marked.js
+83 silly gunzTarPerm modified mode [ 'lib/marked.js', 420, 438 ]
+84 silly gunzTarPerm extractEntry lib/plugins.js
+85 silly gunzTarPerm modified mode [ 'lib/plugins.js', 420, 438 ]
+86 silly gunzTarPerm extractEntry lib/post.js
+87 silly gunzTarPerm modified mode [ 'lib/post.js', 420, 438 ]
+88 silly gunzTarPerm extractEntry lib/utils.js
+89 silly gunzTarPerm modified mode [ 'lib/utils.js', 420, 438 ]
+90 silly gunzTarPerm extractEntry package.json
+91 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+92 silly gunzTarPerm extractEntry readme.md
+93 silly gunzTarPerm modified mode [ 'readme.md', 420, 438 ]
+94 silly gunzTarPerm extractEntry test/
+95 silly gunzTarPerm modified mode [ 'test/', 493, 511 ]
+96 silly gunzTarPerm extractEntry test/blog.test.js
+97 silly gunzTarPerm modified mode [ 'test/blog.test.js', 420, 438 ]
+98 silly gunzTarPerm extractEntry test/mocha.opts
+99 silly gunzTarPerm modified mode [ 'test/mocha.opts', 420, 438 ]
+100 silly gunzTarPerm extractEntry test/pages/
+101 silly gunzTarPerm modified mode [ 'test/pages/', 493, 511 ]
+102 silly gunzTarPerm extractEntry test/pages/simple.md
+103 silly gunzTarPerm modified mode [ 'test/pages/simple.md', 420, 438 ]
+104 silly gunzTarPerm extractEntry test/post.test.js
+105 silly gunzTarPerm modified mode [ 'test/post.test.js', 420, 438 ]
+106 silly gunzTarPerm extractEntry test/posts/
+107 silly gunzTarPerm modified mode [ 'test/posts/', 493, 511 ]
+108 silly gunzTarPerm extractEntry test/posts/simple.md
+109 silly gunzTarPerm modified mode [ 'test/posts/simple.md', 420, 438 ]
+110 verbose write writing to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\package.json
+111 info preinstall owl@0.0.6
+112 verbose readDependencies loading dependencies from C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\package.json
+113 silly prepareForInstallMany adding mongoose@2.4.x from owl dependencies
+114 silly prepareForInstallMany adding watch@0.5.x from owl dependencies
+115 silly prepareForInstallMany adding async@0.1.x from owl dependencies
+116 silly prepareForInstallMany adding marked@0.1.x from owl dependencies
+117 silly prepareForInstallMany adding highlight@0.2.x from owl dependencies
+118 silly prepareForInstallMany adding gravatar@1.0.x from owl dependencies
+119 silly prepareForInstallMany adding MD5@0.0.x from owl dependencies
+120 verbose readDependencies loading dependencies from C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\package.json
+121 silly cache add args [ 'mongoose@2.4.x', null ]
+122 verbose cache add spec mongoose@2.4.x
+123 silly cache add args [ 'watch@0.5.x', null ]
+124 verbose cache add spec watch@0.5.x
+125 silly cache add parsed spec Result {
+125 silly cache add   raw: 'mongoose@2.4.x',
+125 silly cache add   scope: null,
+125 silly cache add   name: 'mongoose',
+125 silly cache add   rawSpec: '2.4.x',
+125 silly cache add   spec: '>=2.4.0 <2.5.0',
+125 silly cache add   type: 'range' }
+126 silly addNamed mongoose@>=2.4.0 <2.5.0
+127 verbose addNamed ">=2.4.0 <2.5.0" is a valid semver range for mongoose
+128 silly addNameRange { name: 'mongoose', range: '>=2.4.0 <2.5.0', hasData: false }
+129 silly mapToRegistry name mongoose
+130 silly mapToRegistry using default registry
+131 silly mapToRegistry registry https://registry.npmjs.org/
+132 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+133 verbose addNameRange registry:https://registry.npmjs.org/mongoose not in flight; fetching
+134 silly cache add parsed spec Result {
+134 silly cache add   raw: 'watch@0.5.x',
+134 silly cache add   scope: null,
+134 silly cache add   name: 'watch',
+134 silly cache add   rawSpec: '0.5.x',
+134 silly cache add   spec: '>=0.5.0 <0.6.0',
+134 silly cache add   type: 'range' }
+135 silly addNamed watch@>=0.5.0 <0.6.0
+136 verbose addNamed ">=0.5.0 <0.6.0" is a valid semver range for watch
+137 silly addNameRange { name: 'watch', range: '>=0.5.0 <0.6.0', hasData: false }
+138 silly mapToRegistry name watch
+139 silly mapToRegistry using default registry
+140 silly mapToRegistry registry https://registry.npmjs.org/
+141 silly mapToRegistry uri https://registry.npmjs.org/watch
+142 verbose addNameRange registry:https://registry.npmjs.org/watch not in flight; fetching
+143 silly cache add args [ 'async@0.1.x', null ]
+144 verbose cache add spec async@0.1.x
+145 silly cache add parsed spec Result {
+145 silly cache add   raw: 'async@0.1.x',
+145 silly cache add   scope: null,
+145 silly cache add   name: 'async',
+145 silly cache add   rawSpec: '0.1.x',
+145 silly cache add   spec: '>=0.1.0 <0.2.0',
+145 silly cache add   type: 'range' }
+146 silly addNamed async@>=0.1.0 <0.2.0
+147 verbose addNamed ">=0.1.0 <0.2.0" is a valid semver range for async
+148 silly addNameRange { name: 'async', range: '>=0.1.0 <0.2.0', hasData: false }
+149 silly mapToRegistry name async
+150 silly mapToRegistry using default registry
+151 silly mapToRegistry registry https://registry.npmjs.org/
+152 silly mapToRegistry uri https://registry.npmjs.org/async
+153 verbose addNameRange registry:https://registry.npmjs.org/async not in flight; fetching
+154 silly cache add args [ 'marked@0.1.x', null ]
+155 verbose cache add spec marked@0.1.x
+156 silly cache add parsed spec Result {
+156 silly cache add   raw: 'marked@0.1.x',
+156 silly cache add   scope: null,
+156 silly cache add   name: 'marked',
+156 silly cache add   rawSpec: '0.1.x',
+156 silly cache add   spec: '>=0.1.0 <0.2.0',
+156 silly cache add   type: 'range' }
+157 silly addNamed marked@>=0.1.0 <0.2.0
+158 verbose addNamed ">=0.1.0 <0.2.0" is a valid semver range for marked
+159 silly addNameRange { name: 'marked', range: '>=0.1.0 <0.2.0', hasData: false }
+160 silly mapToRegistry name marked
+161 silly mapToRegistry using default registry
+162 silly mapToRegistry registry https://registry.npmjs.org/
+163 silly mapToRegistry uri https://registry.npmjs.org/marked
+164 verbose addNameRange registry:https://registry.npmjs.org/marked not in flight; fetching
+165 silly cache add args [ 'highlight@0.2.x', null ]
+166 verbose cache add spec highlight@0.2.x
+167 silly cache add parsed spec Result {
+167 silly cache add   raw: 'highlight@0.2.x',
+167 silly cache add   scope: null,
+167 silly cache add   name: 'highlight',
+167 silly cache add   rawSpec: '0.2.x',
+167 silly cache add   spec: '>=0.2.0 <0.3.0',
+167 silly cache add   type: 'range' }
+168 silly addNamed highlight@>=0.2.0 <0.3.0
+169 verbose addNamed ">=0.2.0 <0.3.0" is a valid semver range for highlight
+170 silly addNameRange { name: 'highlight', range: '>=0.2.0 <0.3.0', hasData: false }
+171 silly mapToRegistry name highlight
+172 silly mapToRegistry using default registry
+173 silly mapToRegistry registry https://registry.npmjs.org/
+174 silly mapToRegistry uri https://registry.npmjs.org/highlight
+175 verbose addNameRange registry:https://registry.npmjs.org/highlight not in flight; fetching
+176 silly cache add args [ 'gravatar@1.0.x', null ]
+177 verbose cache add spec gravatar@1.0.x
+178 silly cache add parsed spec Result {
+178 silly cache add   raw: 'gravatar@1.0.x',
+178 silly cache add   scope: null,
+178 silly cache add   name: 'gravatar',
+178 silly cache add   rawSpec: '1.0.x',
+178 silly cache add   spec: '>=1.0.0 <1.1.0',
+178 silly cache add   type: 'range' }
+179 silly addNamed gravatar@>=1.0.0 <1.1.0
+180 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for gravatar
+181 silly addNameRange { name: 'gravatar', range: '>=1.0.0 <1.1.0', hasData: false }
+182 silly mapToRegistry name gravatar
+183 silly mapToRegistry using default registry
+184 silly mapToRegistry registry https://registry.npmjs.org/
+185 silly mapToRegistry uri https://registry.npmjs.org/gravatar
+186 verbose addNameRange registry:https://registry.npmjs.org/gravatar not in flight; fetching
+187 silly cache add args [ 'MD5@0.0.x', null ]
+188 verbose cache add spec MD5@0.0.x
+189 silly cache add parsed spec Result {
+189 silly cache add   raw: 'MD5@0.0.x',
+189 silly cache add   scope: null,
+189 silly cache add   name: 'MD5',
+189 silly cache add   rawSpec: '0.0.x',
+189 silly cache add   spec: '>=0.0.0 <0.1.0',
+189 silly cache add   type: 'range' }
+190 silly addNamed MD5@>=0.0.0 <0.1.0
+191 verbose addNamed ">=0.0.0 <0.1.0" is a valid semver range for MD5
+192 silly addNameRange { name: 'MD5', range: '>=0.0.0 <0.1.0', hasData: false }
+193 silly mapToRegistry name MD5
+194 silly mapToRegistry using default registry
+195 silly mapToRegistry registry https://registry.npmjs.org/
+196 silly mapToRegistry uri https://registry.npmjs.org/MD5
+197 verbose addNameRange registry:https://registry.npmjs.org/MD5 not in flight; fetching
+198 verbose request uri https://registry.npmjs.org/watch
+199 verbose request no auth needed
+200 info attempt registry request try #1 at 10:34:45
+201 verbose etag "8VWIWU5HVI2668OEI3TEA0XR0"
+202 http request GET https://registry.npmjs.org/watch
+203 verbose request uri https://registry.npmjs.org/marked
+204 verbose request no auth needed
+205 info attempt registry request try #1 at 10:34:45
+206 verbose etag "EHK27XUPK3TF0GPX6RURAXCJO"
+207 http request GET https://registry.npmjs.org/marked
+208 verbose request uri https://registry.npmjs.org/highlight
+209 verbose request no auth needed
+210 info attempt registry request try #1 at 10:34:45
+211 verbose etag "52OOCDKD1QB54UKFSB5NEW3AK"
+212 http request GET https://registry.npmjs.org/highlight
+213 verbose request uri https://registry.npmjs.org/async
+214 verbose request no auth needed
+215 info attempt registry request try #1 at 10:34:45
+216 verbose etag "6Z5UXPGC2N83RSDZPGGMPOYW2"
+217 http request GET https://registry.npmjs.org/async
+218 verbose request uri https://registry.npmjs.org/mongoose
+219 verbose request no auth needed
+220 info attempt registry request try #1 at 10:34:45
+221 verbose etag "F0TH9GS8EEY3DWZ4JHDZ16PRD"
+222 http request GET https://registry.npmjs.org/mongoose
+223 verbose request uri https://registry.npmjs.org/gravatar
+224 verbose request no auth needed
+225 info attempt registry request try #1 at 10:34:45
+226 verbose etag "EVJU7DYNURIO8U12IX5EHJPXL"
+227 http request GET https://registry.npmjs.org/gravatar
+228 verbose request uri https://registry.npmjs.org/MD5
+229 verbose request no auth needed
+230 info attempt registry request try #1 at 10:34:45
+231 verbose etag "9MGBPU8H6GQUFEGE0M7LETJYA"
+232 http request GET https://registry.npmjs.org/MD5
+233 http 200 https://registry.npmjs.org/marked
+234 silly get cb [ 200,
+234 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+234 silly get     etag: '"EVPHM4F3UAQA7CNFY1YIRKIQ8"',
+234 silly get     'content-type': 'application/json',
+234 silly get     'cache-control': 'max-age=60',
+234 silly get     'content-length': '47131',
+234 silly get     'accept-ranges': 'bytes',
+234 silly get     date: 'Tue, 10 Nov 2015 06:34:48 GMT',
+234 silly get     via: '1.1 varnish',
+234 silly get     age: '60',
+234 silly get     connection: 'keep-alive',
+234 silly get     'x-served-by': 'cache-fra1239-FRA',
+234 silly get     'x-cache': 'HIT',
+234 silly get     'x-cache-hits': '1',
+234 silly get     'x-timer': 'S1447137288.310350,VS0,VE0',
+234 silly get     vary: 'Accept' } ]
+235 verbose get saving marked to C:\Users\kanta\AppData\Roaming\npm-cache\registry.npmjs.org\marked\.cache.json
+236 silly addNameRange number 2 { name: 'marked', range: '>=0.1.0 <0.2.0', hasData: true }
+237 silly addNameRange versions [ 'marked',
+237 silly addNameRange   [ '0.0.1',
+237 silly addNameRange     '0.0.2',
+237 silly addNameRange     '0.0.3',
+237 silly addNameRange     '0.0.4',
+237 silly addNameRange     '0.0.5',
+237 silly addNameRange     '0.0.6',
+237 silly addNameRange     '0.0.7',
+237 silly addNameRange     '0.0.8',
+237 silly addNameRange     '0.0.9',
+237 silly addNameRange     '0.1.0',
+237 silly addNameRange     '0.1.1',
+237 silly addNameRange     '0.1.2',
+237 silly addNameRange     '0.1.3',
+237 silly addNameRange     '0.1.4',
+237 silly addNameRange     '0.1.5',
+237 silly addNameRange     '0.1.6',
+237 silly addNameRange     '0.1.7',
+237 silly addNameRange     '0.1.8',
+237 silly addNameRange     '0.1.9',
+237 silly addNameRange     '0.2.0',
+237 silly addNameRange     '0.2.1',
+237 silly addNameRange     '0.2.2',
+237 silly addNameRange     '0.2.2-1',
+237 silly addNameRange     '0.2.3',
+237 silly addNameRange     '0.2.4',
+237 silly addNameRange     '0.2.4-1',
+237 silly addNameRange     '0.2.5',
+237 silly addNameRange     '0.2.6',
+237 silly addNameRange     '0.2.7',
+237 silly addNameRange     '0.2.8',
+237 silly addNameRange     '0.2.9',
+237 silly addNameRange     '0.2.10',
+237 silly addNameRange     '0.3.0',
+237 silly addNameRange     '0.3.1',
+237 silly addNameRange     '0.3.2',
+237 silly addNameRange     '0.3.3',
+237 silly addNameRange     '0.3.4',
+237 silly addNameRange     '0.3.5' ] ]
+238 silly addNamed marked@0.1.9
+239 verbose addNamed "0.1.9" is a plain semver version for marked
+240 http 200 https://registry.npmjs.org/async
+241 silly get cb [ 200,
+241 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+241 silly get     etag: '"5ZYRE3EZKWOF2QJ3OH8IGEDAD"',
+241 silly get     'content-type': 'application/json',
+241 silly get     'cache-control': 'max-age=60',
+241 silly get     'content-length': '131997',
+241 silly get     'accept-ranges': 'bytes',
+241 silly get     date: 'Tue, 10 Nov 2015 06:34:48 GMT',
+241 silly get     via: '1.1 varnish',
+241 silly get     age: '59',
+241 silly get     connection: 'keep-alive',
+241 silly get     'x-served-by': 'cache-fra1233-FRA',
+241 silly get     'x-cache': 'HIT',
+241 silly get     'x-cache-hits': '4',
+241 silly get     'x-timer': 'S1447137288.324054,VS0,VE0',
+241 silly get     vary: 'Accept' } ]
+242 verbose get saving async to C:\Users\kanta\AppData\Roaming\npm-cache\registry.npmjs.org\async\.cache.json
+243 silly cache afterAdd marked@0.1.9
+244 verbose afterAdd C:\Users\kanta\AppData\Roaming\npm-cache\marked\0.1.9\package\package.json not in flight; writing
+245 silly addNameRange number 2 { name: 'async', range: '>=0.1.0 <0.2.0', hasData: true }
+246 silly addNameRange versions [ 'async',
+246 silly addNameRange   [ '0.1.0',
+246 silly addNameRange     '0.1.1',
+246 silly addNameRange     '0.1.2',
+246 silly addNameRange     '0.1.3',
+246 silly addNameRange     '0.1.4',
+246 silly addNameRange     '0.1.5',
+246 silly addNameRange     '0.1.6',
+246 silly addNameRange     '0.1.7',
+246 silly addNameRange     '0.1.8',
+246 silly addNameRange     '0.1.9',
+246 silly addNameRange     '0.1.10',
+246 silly addNameRange     '0.1.11',
+246 silly addNameRange     '0.1.12',
+246 silly addNameRange     '0.1.13',
+246 silly addNameRange     '0.1.14',
+246 silly addNameRange     '0.1.15',
+246 silly addNameRange     '0.1.16',
+246 silly addNameRange     '0.1.17',
+246 silly addNameRange     '0.1.18',
+246 silly addNameRange     '0.1.19',
+246 silly addNameRange     '0.1.20',
+246 silly addNameRange     '0.1.21',
+246 silly addNameRange     '0.1.22',
+246 silly addNameRange     '0.2.0',
+246 silly addNameRange     '0.2.1',
+246 silly addNameRange     '0.2.2',
+246 silly addNameRange     '0.2.3',
+246 silly addNameRange     '0.2.4',
+246 silly addNameRange     '0.2.5',
+246 silly addNameRange     '0.2.6',
+246 silly addNameRange     '0.2.7',
+246 silly addNameRange     '0.2.8',
+246 silly addNameRange     '0.2.9',
+246 silly addNameRange     '0.2.10',
+246 silly addNameRange     '0.3.0',
+246 silly addNameRange     '0.4.0',
+246 silly addNameRange     '0.4.1',
+246 silly addNameRange     '0.5.0',
+246 silly addNameRange     '0.6.0',
+246 silly addNameRange     '0.6.1',
+246 silly addNameRange     '0.6.2',
+246 silly addNameRange     '0.7.0',
+246 silly addNameRange     '0.8.0',
+246 silly addNameRange     '0.9.0',
+246 silly addNameRange     '0.9.2',
+246 silly addNameRange     '1.0.0',
+246 silly addNameRange     '1.1.0',
+246 silly addNameRange     '1.2.0',
+246 silly addNameRange     '1.1.1',
+246 silly addNameRange     '1.2.1',
+246 silly addNameRange     '1.3.0',
+246 silly addNameRange     '1.4.0',
+246 silly addNameRange     '1.4.1',
+246 silly addNameRange     '1.4.2',
+246 silly addNameRange     '1.5.0' ] ]
+247 silly addNamed async@0.1.22
+248 verbose addNamed "0.1.22" is a plain semver version for async
+249 verbose afterAdd C:\Users\kanta\AppData\Roaming\npm-cache\marked\0.1.9\package\package.json written
+250 silly cache afterAdd async@0.1.22
+251 verbose afterAdd C:\Users\kanta\AppData\Roaming\npm-cache\async\0.1.22\package\package.json not in flight; writing
+252 verbose afterAdd C:\Users\kanta\AppData\Roaming\npm-cache\async\0.1.22\package\package.json written
+253 http 200 https://registry.npmjs.org/MD5
+254 silly get cb [ 200,
+254 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+254 silly get     etag: '"34A9AIWDY12RH3KLJ92OMGPV6"',
+254 silly get     'content-type': 'application/json',
+254 silly get     'cache-control': 'max-age=60',
+254 silly get     'content-length': '13290',
+254 silly get     'accept-ranges': 'bytes',
+254 silly get     date: 'Tue, 10 Nov 2015 06:34:48 GMT',
+254 silly get     via: '1.1 varnish',
+254 silly get     age: '0',
+254 silly get     connection: 'keep-alive',
+254 silly get     'x-served-by': 'cache-fra1226-FRA',
+254 silly get     'x-cache': 'HIT',
+254 silly get     'x-cache-hits': '1',
+254 silly get     'x-timer': 'S1447137288.354442,VS0,VE497',
+254 silly get     vary: 'Accept' } ]
+255 verbose get saving MD5 to C:\Users\kanta\AppData\Roaming\npm-cache\registry.npmjs.org\MD5\.cache.json
+256 silly addNameRange number 2 { name: 'MD5', range: '>=0.0.0 <0.1.0', hasData: true }
+257 silly addNameRange versions [ 'MD5',
+257 silly addNameRange   [ '0.0.0',
+257 silly addNameRange     '1.0.0',
+257 silly addNameRange     '1.0.1',
+257 silly addNameRange     '1.0.2',
+257 silly addNameRange     '1.0.3',
+257 silly addNameRange     '1.1.0',
+257 silly addNameRange     '1.2.0',
+257 silly addNameRange     '1.2.1',
+257 silly addNameRange     '1.2.2',
+257 silly addNameRange     '1.3.0' ] ]
+258 silly addNamed MD5@0.0.0
+259 verbose addNamed "0.0.0" is a plain semver version for MD5
+260 warn deprecated MD5@0.0.0: deprecated, use lowercase 'md5@2.x' from now on
+261 silly cache afterAdd MD5@0.0.0
+262 verbose afterAdd C:\Users\kanta\AppData\Roaming\npm-cache\MD5\0.0.0\package\package.json not in flight; writing
+263 verbose afterAdd C:\Users\kanta\AppData\Roaming\npm-cache\MD5\0.0.0\package\package.json written
+264 http 200 https://registry.npmjs.org/watch
+265 silly get cb [ 200,
+265 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+265 silly get     etag: '"6E9J0UXWPWT060YA666O3PCQV"',
+265 silly get     'content-type': 'application/json',
+265 silly get     'cache-control': 'max-age=60',
+265 silly get     'content-length': '22550',
+265 silly get     'accept-ranges': 'bytes',
+265 silly get     date: 'Tue, 10 Nov 2015 06:34:48 GMT',
+265 silly get     via: '1.1 varnish',
+265 silly get     age: '0',
+265 silly get     connection: 'keep-alive',
+265 silly get     'x-served-by': 'cache-fra1242-FRA',
+265 silly get     'x-cache': 'HIT',
+265 silly get     'x-cache-hits': '1',
+265 silly get     'x-timer': 'S1447137288.317359,VS0,VE513',
+265 silly get     vary: 'Accept' } ]
+266 verbose get saving watch to C:\Users\kanta\AppData\Roaming\npm-cache\registry.npmjs.org\watch\.cache.json
+267 silly addNameRange number 2 { name: 'watch', range: '>=0.5.0 <0.6.0', hasData: true }
+268 silly addNameRange versions [ 'watch',
+268 silly addNameRange   [ '0.1.0',
+268 silly addNameRange     '0.2.0',
+268 silly addNameRange     '0.2.1',
+268 silly addNameRange     '0.3.0',
+268 silly addNameRange     '0.3.1',
+268 silly addNameRange     '0.3.2',
+268 silly addNameRange     '0.3.3',
+268 silly addNameRange     '0.4.0',
+268 silly addNameRange     '0.5.0',
+268 silly addNameRange     '0.5.1',
+268 silly addNameRange     '0.6.0',
+268 silly addNameRange     '0.7.0',
+268 silly addNameRange     '0.8.0',
+268 silly addNameRange     '0.9.0',
+268 silly addNameRange     '0.10.0',
+268 silly addNameRange     '0.11.0',
+268 silly addNameRange     '0.12.0',
+268 silly addNameRange     '0.13.0',
+268 silly addNameRange     '0.14.0',
+268 silly addNameRange     '0.15.0',
+268 silly addNameRange     '0.16.0' ] ]
+269 silly addNamed watch@0.5.1
+270 verbose addNamed "0.5.1" is a plain semver version for watch
+271 silly cache afterAdd watch@0.5.1
+272 verbose afterAdd C:\Users\kanta\AppData\Roaming\npm-cache\watch\0.5.1\package\package.json not in flight; writing
+273 verbose afterAdd C:\Users\kanta\AppData\Roaming\npm-cache\watch\0.5.1\package\package.json written
+274 http 304 https://registry.npmjs.org/highlight
+275 silly get cb [ 304,
+275 silly get   { date: 'Tue, 10 Nov 2015 06:34:48 GMT',
+275 silly get     via: '1.1 varnish',
+275 silly get     'cache-control': 'max-age=60',
+275 silly get     etag: '"52OOCDKD1QB54UKFSB5NEW3AK"',
+275 silly get     age: '0',
+275 silly get     connection: 'keep-alive',
+275 silly get     'x-served-by': 'cache-fra1221-FRA',
+275 silly get     'x-cache': 'MISS',
+275 silly get     'x-cache-hits': '0',
+275 silly get     'x-timer': 'S1447137288.320767,VS0,VE711',
+275 silly get     vary: 'Accept' } ]
+276 verbose etag https://registry.npmjs.org/highlight from cache
+277 verbose get saving highlight to C:\Users\kanta\AppData\Roaming\npm-cache\registry.npmjs.org\highlight\.cache.json
+278 silly addNameRange number 2 { name: 'highlight', range: '>=0.2.0 <0.3.0', hasData: true }
+279 silly addNameRange versions [ 'highlight',
+279 silly addNameRange   [ '0.1.0', '0.2.0', '0.2.1', '0.2.2', '0.2.3', '0.2.4' ] ]
+280 silly addNamed highlight@0.2.4
+281 verbose addNamed "0.2.4" is a plain semver version for highlight
+282 warn deprecated highlight@0.2.4: Not maintained anymore
+283 silly cache afterAdd highlight@0.2.4
+284 verbose afterAdd C:\Users\kanta\AppData\Roaming\npm-cache\highlight\0.2.4\package\package.json not in flight; writing
+285 verbose afterAdd C:\Users\kanta\AppData\Roaming\npm-cache\highlight\0.2.4\package\package.json written
+286 http 200 https://registry.npmjs.org/mongoose
+287 silly get cb [ 200,
+287 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+287 silly get     etag: '"5WAQ4QO3DHMWCLOVXV7ACKIBE"',
+287 silly get     'content-type': 'application/json',
+287 silly get     'cache-control': 'max-age=60',
+287 silly get     'content-length': '384594',
+287 silly get     'accept-ranges': 'bytes',
+287 silly get     date: 'Tue, 10 Nov 2015 06:34:48 GMT',
+287 silly get     via: '1.1 varnish',
+287 silly get     age: '0',
+287 silly get     connection: 'keep-alive',
+287 silly get     'x-served-by': 'cache-fra1224-FRA',
+287 silly get     'x-cache': 'HIT',
+287 silly get     'x-cache-hits': '1',
+287 silly get     'x-timer': 'S1447137288.353351,VS0,VE455',
+287 silly get     vary: 'Accept' } ]
+288 verbose get saving mongoose to C:\Users\kanta\AppData\Roaming\npm-cache\registry.npmjs.org\mongoose\.cache.json
+289 http 200 https://registry.npmjs.org/gravatar
+290 silly get cb [ 200,
+290 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+290 silly get     etag: '"CFWYAIFU8YJIVOB1CFOC5N2AA"',
+290 silly get     'content-type': 'application/json',
+290 silly get     'cache-control': 'max-age=60',
+290 silly get     'content-length': '14204',
+290 silly get     'accept-ranges': 'bytes',
+290 silly get     date: 'Tue, 10 Nov 2015 06:34:49 GMT',
+290 silly get     via: '1.1 varnish',
+290 silly get     age: '0',
+290 silly get     connection: 'keep-alive',
+290 silly get     'x-served-by': 'cache-fra1228-FRA',
+290 silly get     'x-cache': 'MISS',
+290 silly get     'x-cache-hits': '0',
+290 silly get     'x-timer': 'S1447137288.325933,VS0,VE810',
+290 silly get     vary: 'Accept' } ]
+291 verbose get saving gravatar to C:\Users\kanta\AppData\Roaming\npm-cache\registry.npmjs.org\gravatar\.cache.json
+292 silly addNameRange number 2 { name: 'gravatar', range: '>=1.0.0 <1.1.0', hasData: true }
+293 silly addNameRange versions [ 'gravatar',
+293 silly addNameRange   [ '1.0.0',
+293 silly addNameRange     '1.0.1',
+293 silly addNameRange     '1.0.2',
+293 silly addNameRange     '1.0.3',
+293 silly addNameRange     '1.0.6',
+293 silly addNameRange     '1.1.0',
+293 silly addNameRange     '1.1.1',
+293 silly addNameRange     '1.2.0',
+293 silly addNameRange     '1.3.0',
+293 silly addNameRange     '1.3.1',
+293 silly addNameRange     '1.4.0' ] ]
+294 silly addNamed gravatar@1.0.6
+295 verbose addNamed "1.0.6" is a plain semver version for gravatar
+296 silly addNameRange number 2 { name: 'mongoose', range: '>=2.4.0 <2.5.0', hasData: true }
+297 silly addNameRange versions [ 'mongoose',
+297 silly addNameRange   [ '0.0.1',
+297 silly addNameRange     '0.0.2',
+297 silly addNameRange     '0.0.3',
+297 silly addNameRange     '0.0.4',
+297 silly addNameRange     '0.0.5',
+297 silly addNameRange     '1.0.0',
+297 silly addNameRange     '1.0.1',
+297 silly addNameRange     '1.0.2',
+297 silly addNameRange     '0.0.6',
+297 silly addNameRange     '1.0.3',
+297 silly addNameRange     '1.0.4',
+297 silly addNameRange     '1.0.5',
+297 silly addNameRange     '1.0.6',
+297 silly addNameRange     '1.0.7',
+297 silly addNameRange     '1.0.8',
+297 silly addNameRange     '1.0.10',
+297 silly addNameRange     '1.0.11',
+297 silly addNameRange     '1.0.12',
+297 silly addNameRange     '1.0.13',
+297 silly addNameRange     '1.0.14',
+297 silly addNameRange     '1.0.15',
+297 silly addNameRange     '1.0.16',
+297 silly addNameRange     '1.1.0',
+297 silly addNameRange     '1.1.1',
+297 silly addNameRange     '1.1.2',
+297 silly addNameRange     '1.1.3',
+297 silly addNameRange     '1.1.4',
+297 silly addNameRange     '1.1.5',
+297 silly addNameRange     '1.1.6',
+297 silly addNameRange     '1.1.7',
+297 silly addNameRange     '1.1.8',
+297 silly addNameRange     '1.1.9',
+297 silly addNameRange     '1.1.10',
+297 silly addNameRange     '1.1.11',
+297 silly addNameRange     '1.1.12',
+297 silly addNameRange     '1.1.13',
+297 silly addNameRange     '1.1.14',
+297 silly addNameRange     '1.1.15',
+297 silly addNameRange     '1.1.16',
+297 silly addNameRange     '1.1.17',
+297 silly addNameRange     '1.1.18',
+297 silly addNameRange     '1.1.19',
+297 silly addNameRange     '1.1.20',
+297 silly addNameRange     '1.1.21',
+297 silly addNameRange     '1.1.22',
+297 silly addNameRange     '1.1.23',
+297 silly addNameRange     '1.1.24',
+297 silly addNameRange     '1.1.25',
+297 silly addNameRange     '1.2.0',
+297 silly addNameRange     '1.3.0',
+297 silly addNameRange     '1.3.1',
+297 silly addNameRange     '1.3.2',
+297 silly addNameRange     '1.3.3',
+297 silly addNameRange     '1.3.4',
+297 silly addNameRange     '1.3.5',
+297 silly addNameRange     '1.3.6',
+297 silly addNameRange     '1.3.7',
+297 silly addNameRange     '1.4.0',
+297 silly addNameRange     '1.5.0',
+297 silly addNameRange     '1.6.0',
+297 silly addNameRange     '1.7.2',
+297 silly addNameRange     '1.7.3',
+297 silly addNameRange     '1.7.4',
+297 silly addNameRange     '1.8.0',
+297 silly addNameRange     '1.8.1',
+297 silly addNameRange     '1.8.2',
+297 silly addNameRange     '1.8.3',
+297 silly addNameRange     '1.8.4',
+297 silly addNameRange     '2.0.0',
+297 silly addNameRange     '2.0.1',
+297 silly addNameRange     '2.0.2',
+297 silly addNameRange     '2.0.3',
+297 silly addNameRange     '2.0.4',
+297 silly addNameRange     '2.1.0',
+297 silly addNameRange     '2.1.1',
+297 silly addNameRange     '2.1.2',
+297 silly addNameRange     '2.1.3',
+297 silly addNameRange     '2.1.4',
+297 silly addNameRange     '2.2.0',
+297 silly addNameRange     '2.2.1',
+297 silly addNameRange     '2.2.2',
+297 silly addNameRange     '2.2.3',
+297 silly addNameRange     '2.2.4',
+297 silly addNameRange     '2.3.0',
+297 silly addNameRange     '2.3.1',
+297 silly addNameRange     '2.3.2',
+297 silly addNameRange     '2.3.3',
+297 silly addNameRange     '2.3.4',
+297 silly addNameRange     '2.3.5',
+297 silly addNameRange     '2.3.6',
+297 silly addNameRange     '2.3.7',
+297 silly addNameRange     '2.3.8',
+297 silly addNameRange     '2.3.9',
+297 silly addNameRange     '2.3.10',
+297 silly addNameRange     '2.3.11',
+297 silly addNameRange     '2.3.12',
+297 silly addNameRange     '2.3.13',
+297 silly addNameRange     '2.4.0',
+297 silly addNameRange     '2.4.1',
+297 silly addNameRange     '2.4.2',
+297 silly addNameRange     '2.4.3',
+297 silly addNameRange     '2.4.4',
+297 silly addNameRange     '2.4.5',
+297 silly addNameRange     '2.4.6',
+297 silly addNameRange     '2.4.7',
+297 silly addNameRange     '2.4.8',
+297 silly addNameRange     '2.4.9',
+297 silly addNameRange     '2.4.10',
+297 silly addNameRange     '2.5.0',
+297 silly addNameRange     '2.5.1',
+297 silly addNameRange     '2.5.2',
+297 silly addNameRange     '2.5.3',
+297 silly addNameRange     '2.5.4',
+297 silly addNameRange     '2.5.5',
+297 silly addNameRange     '2.5.6',
+297 silly addNameRange     '2.5.7',
+297 silly addNameRange     '2.5.8',
+297 silly addNameRange     '2.5.9',
+297 silly addNameRange     '2.5.10',
+297 silly addNameRange     '2.5.11',
+297 silly addNameRange     '2.5.12',
+297 silly addNameRange     '2.5.13',
+297 silly addNameRange     '2.5.14',
+297 silly addNameRange     '2.6.0',
+297 silly addNameRange     '2.6.1',
+297 silly addNameRange     '2.6.2',
+297 silly addNameRange     '2.6.3',
+297 silly addNameRange     '2.6.4',
+297 silly addNameRange     '2.6.5',
+297 silly addNameRange     '2.6.6',
+297 silly addNameRange     '2.6.7',
+297 silly addNameRange     '2.6.8',
+297 silly addNameRange     '2.7.0',
+297 silly addNameRange     '2.7.1',
+297 silly addNameRange     '2.7.2',
+297 silly addNameRange     '2.7.4',
+297 silly addNameRange     '2.7.3',
+297 silly addNameRange     '3.0.0',
+297 silly addNameRange     '3.0.1',
+297 silly addNameRange     '3.0.2',
+297 silly addNameRange     '2.8.0',
+297 silly addNameRange     '3.0.3',
+297 silly addNameRange     '3.1.0',
+297 silly addNameRange     '2.8.1',
+297 silly addNameRange     '3.1.1',
+297 silly addNameRange     '2.8.2',
+297 silly addNameRange     '2.8.3',
+297 silly addNameRange     '2.9.0',
+297 silly addNameRange     '3.2.0',
+297 silly addNameRange     '2.9.1',
+297 silly addNameRange     '3.2.1',
+297 silly addNameRange     '2.9.2',
+297 silly addNameRange     '3.2.2',
+297 silly addNameRange     '3.3.0',
+297 silly addNameRange     '3.3.1',
+297 silly addNameRange     '2.9.3',
+297 silly addNameRange     '3.4.0',
+297 silly addNameRange     '2.9.4',
+297 silly addNameRange     '2.9.5',
+297 silly addNameRange     '3.5.0',
+297 silly addNameRange     '3.5.1',
+297 silly addNameRange     '3.5.2',
+297 silly addNameRange     '3.5.3',
+297 silly addNameRange     '2.9.6',
+297 silly addNameRange     '2.9.7',
+297 silly addNameRange     '3.5.4',
+297 silly addNameRange     '3.5.5',
+297 silly addNameRange     '2.9.8',
+297 silly addNameRange     '2.9.9',
+297 silly addNameRange     '3.5.6',
+297 silly addNameRange     '3.5.7',
+297 silly addNameRange     '3.5.8',
+297 silly addNameRange     '2.9.10',
+297 silly addNameRange     '3.5.9',
+297 silly addNameRange     '3.6.2',
+297 silly addNameRange     '3.5.10',
+297 silly addNameRange     '3.6.3',
+297 silly addNameRange     '3.5.11',
+297 silly addNameRange     '3.6.4',
+297 silly addNameRange     '3.6.5',
+297 silly addNameRange     '3.6.6',
+297 silly addNameRange     '3.6.7',
+297 silly addNameRange     '3.5.12',
+297 silly addNameRange     '3.6.8',
+297 silly addNameRange     '3.6.9',
+297 silly addNameRange     '3.6.10',
+297 silly addNameRange     '3.5.13',
+297 silly addNameRange     '3.5.14',
+297 silly addNameRange     '3.6.11',
+297 silly addNameRange     '3.6.12',
+297 silly addNameRange     '3.6.13',
+297 silly addNameRange     '3.6.14',
+297 silly addNameRange     '3.6.15',
+297 silly addNameRange     '3.5.15',
+297 silly addNameRange     '3.7.0',
+297 silly addNameRange     '3.6.16',
+297 silly addNameRange     '3.5.16',
+297 silly addNameRange     '3.6.17',
+297 silly addNameRange     '3.7.2',
+297 silly addNameRange     '3.0.0-alpha1',
+297 silly addNameRange     '3.0.0-alpha2',
+297 silly addNameRange     '3.0.0-rc0',
+297 silly addNameRange     '3.6.0-rc0',
+297 silly addNameRange     '3.6.0-rc1',
+297 silly addNameRange     '3.6.18',
+297 silly addNameRange     '3.7.3',
+297 silly addNameRange     '3.6.19',
+297 silly addNameRange     '3.6.20',
+297 silly addNameRange     '3.7.4',
+297 silly addNameRange     '3.8.0',
+297 silly addNameRange     '3.8.1',
+297 silly addNameRange     '3.8.2',
+297 silly addNameRange     '3.8.3',
+297 silly addNameRange     '3.8.4',
+297 silly addNameRange     '3.8.5',
+297 silly addNameRange     '3.8.6',
+297 silly addNameRange     '3.8.7',
+297 silly addNameRange     '3.8.8',
+297 silly addNameRange     '3.8.9',
+297 silly addNameRange     '3.8.10',
+297 silly addNameRange     '3.8.11',
+297 silly addNameRange     '3.9.0',
+297 silly addNameRange     '3.8.12',
+297 silly addNameRange     '3.8.13',
+297 silly addNameRange     '3.8.14',
+297 silly addNameRange     '3.8.15',
+297 silly addNameRange     '3.9.1',
+297 silly addNameRange     '3.8.16',
+297 silly addNameRange     '3.9.2',
+297 silly addNameRange     '3.8.17',
+297 silly addNameRange     '3.9.3',
+297 silly addNameRange     '3.8.18',
+297 silly addNameRange     '3.9.4',
+297 silly addNameRange     '3.8.19',
+297 silly addNameRange     '3.9.5',
+297 silly addNameRange     '3.8.20',
+297 silly addNameRange     '3.9.6',
+297 silly addNameRange     '3.8.21',
+297 silly addNameRange     '3.9.7',
+297 silly addNameRange     '3.8.22',
+297 silly addNameRange     '4.0.0-rc0',
+297 silly addNameRange     '4.0.0-rc1',
+297 silly addNameRange     '3.8.23',
+297 silly addNameRange     '4.0.0-rc2',
+297 silly addNameRange     '3.8.24',
+297 silly addNameRange     '4.0.0-rc3',
+297 silly addNameRange     '3.8.25',
+297 silly addNameRange     '4.0.0-rc4',
+297 silly addNameRange     '4.0.0',
+297 silly addNameRange     '4.0.1',
+297 silly addNameRange     '3.8.26',
+297 silly addNameRange     '3.8.27',
+297 silly addNameRange     '4.0.2',
+297 silly addNameRange     '3.8.28',
+297 silly addNameRange     '4.0.3',
+297 silly addNameRange     '3.8.29',
+297 silly addNameRange     '4.0.4',
+297 silly addNameRange     '3.8.30',
+297 silly addNameRange     '4.0.5',
+297 silly addNameRange     '3.8.31',
+297 silly addNameRange     '4.0.6',
+297 silly addNameRange     '3.8.33',
+297 silly addNameRange     '4.0.7',
+297 silly addNameRange     '3.8.34',
+297 silly addNameRange     '4.0.8',
+297 silly addNameRange     '4.1.0',
+297 silly addNameRange     '4.1.1',
+297 silly addNameRange     '4.1.2',
+297 silly addNameRange     '3.8.35',
+297 silly addNameRange     '4.1.3',
+297 silly addNameRange     '4.1.5',
+297 silly addNameRange     '4.1.6',
+297 silly addNameRange     '4.1.7',
+297 silly addNameRange     '4.1.8',
+297 silly addNameRange     '4.1.9',
+297 silly addNameRange     '4.1.10',
+297 silly addNameRange     '4.1.11',
+297 silly addNameRange     '3.8.36',
+297 silly addNameRange     '4.1.12',
+297 silly addNameRange     '4.2.0',
+297 silly addNameRange     '4.2.1',
+297 silly addNameRange     '4.2.2',
+297 silly addNameRange     '4.2.3',
+297 silly addNameRange     '4.2.4',
+297 silly addNameRange     '4.2.5' ] ]
+298 silly addNamed mongoose@2.4.10
+299 verbose addNamed "2.4.10" is a plain semver version for mongoose
+300 silly cache afterAdd gravatar@1.0.6
+301 verbose afterAdd C:\Users\kanta\AppData\Roaming\npm-cache\gravatar\1.0.6\package\package.json not in flight; writing
+302 silly cache afterAdd mongoose@2.4.10
+303 verbose afterAdd C:\Users\kanta\AppData\Roaming\npm-cache\mongoose\2.4.10\package\package.json not in flight; writing
+304 verbose afterAdd C:\Users\kanta\AppData\Roaming\npm-cache\gravatar\1.0.6\package\package.json written
+305 verbose afterAdd C:\Users\kanta\AppData\Roaming\npm-cache\mongoose\2.4.10\package\package.json written
+306 silly install resolved [ { name: 'marked',
+306 silly install resolved     description: 'A markdown parser built for speed',
+306 silly install resolved     author: { name: 'Christopher Jeffrey' },
+306 silly install resolved     version: '0.1.9',
+306 silly install resolved     main: './lib/marked.js',
+306 silly install resolved     bin: { marked: './bin/marked' },
+306 silly install resolved     man: [ './man/marked.1' ],
+306 silly install resolved     preferGlobal: false,
+306 silly install resolved     repository: { type: 'git', url: 'git://github.com/chjj/marked.git' },
+306 silly install resolved     homepage: 'https://github.com/chjj/marked',
+306 silly install resolved     bugs: { url: 'http://github.com/chjj/marked/issues' },
+306 silly install resolved     keywords: [ 'markdown', 'markup', 'html' ],
+306 silly install resolved     tags: [ 'markdown', 'markup', 'html' ],
+306 silly install resolved     _npmUser: { name: 'chjj', email: 'chjjeffrey@gmail.com' },
+306 silly install resolved     _id: 'marked@0.1.9',
+306 silly install resolved     dependencies: {},
+306 silly install resolved     devDependencies: {},
+306 silly install resolved     optionalDependencies: {},
+306 silly install resolved     engines: { node: '*' },
+306 silly install resolved     _engineSupported: true,
+306 silly install resolved     _npmVersion: '1.1.0-2',
+306 silly install resolved     _nodeVersion: 'v0.6.8',
+306 silly install resolved     _defaultsLoaded: true,
+306 silly install resolved     dist:
+306 silly install resolved      { shasum: 'ae97d691216db65acf212adfbc5b7d4f16a807be',
+306 silly install resolved        tarball: 'http://registry.npmjs.org/marked/-/marked-0.1.9.tgz' },
+306 silly install resolved     maintainers: [ [Object] ],
+306 silly install resolved     directories: {},
+306 silly install resolved     _shasum: 'ae97d691216db65acf212adfbc5b7d4f16a807be',
+306 silly install resolved     _resolved: 'https://registry.npmjs.org/marked/-/marked-0.1.9.tgz',
+306 silly install resolved     _from: 'marked@>=0.1.0 <0.2.0',
+306 silly install resolved     readme: 'ERROR: No README data found!' },
+306 silly install resolved   { name: 'async',
+306 silly install resolved     description: 'Higher-order functions and common patterns for asynchronous code',
+306 silly install resolved     main: './index',
+306 silly install resolved     author: { name: 'Caolan McMahon' },
+306 silly install resolved     version: '0.1.22',
+306 silly install resolved     repository: { type: 'git', url: 'git://github.com/caolan/async.git' },
+306 silly install resolved     bugs: { url: 'http://github.com/caolan/async/issues' },
+306 silly install resolved     licenses: [ [Object] ],
+306 silly install resolved     devDependencies: { nodeunit: '>0.0.0', 'uglify-js': '1.2.x', nodelint: '>0.0.0' },
+306 silly install resolved     _npmUser: { name: 'caolan', email: 'caolan@caolanmcmahon.com' },
+306 silly install resolved     _id: 'async@0.1.22',
+306 silly install resolved     dependencies: {},
+306 silly install resolved     optionalDependencies: {},
+306 silly install resolved     engines: { node: '*' },
+306 silly install resolved     _engineSupported: true,
+306 silly install resolved     _npmVersion: '1.1.21',
+306 silly install resolved     _nodeVersion: 'v0.6.18',
+306 silly install resolved     _defaultsLoaded: true,
+306 silly install resolved     dist:
+306 silly install resolved      { shasum: '0fc1aaa088a0e3ef0ebe2d8831bab0dcf8845061',
+306 silly install resolved        tarball: 'http://registry.npmjs.org/async/-/async-0.1.22.tgz' },
+306 silly install resolved     maintainers: [ [Object] ],
+306 silly install resolved     directories: {},
+306 silly install resolved     _shasum: '0fc1aaa088a0e3ef0ebe2d8831bab0dcf8845061',
+306 silly install resolved     _resolved: 'https://registry.npmjs.org/async/-/async-0.1.22.tgz',
+306 silly install resolved     _from: 'async@>=0.1.0 <0.2.0',
+306 silly install resolved     readme: 'ERROR: No README data found!',
+306 silly install resolved     homepage: 'https://github.com/caolan/async#readme' },
+306 silly install resolved   { author:
+306 silly install resolved      { name: 'Paul Vorbach',
+306 silly install resolved        email: 'paul@vorb.de',
+306 silly install resolved        url: 'http://vorb.de' },
+306 silly install resolved     name: 'MD5',
+306 silly install resolved     description: 'function for hashing messages with MD5',
+306 silly install resolved     tags: [ 'md5', 'hash', 'encryption' ],
+306 silly install resolved     version: '0.0.0',
+306 silly install resolved     repository: { type: 'git', url: 'git://github.com/pvorb/node-md5.git' },
+306 silly install resolved     bugs: { url: 'https://github.com/pvorb/node-md5/issues' },
+306 silly install resolved     main: 'md5.js',
+306 silly install resolved     engines: { node: '*' },
+306 silly install resolved     dependencies: { charenc: '>=0.0.1', crypt: '>=0.0.1' },
+306 silly install resolved     _npmUser: { name: 'pvorb', email: 'paul@vorb.de' },
+306 silly install resolved     _id: 'MD5@0.0.0',
+306 silly install resolved     devDependencies: {},
+306 silly install resolved     _engineSupported: true,
+306 silly install resolved     _npmVersion: '1.0.106',
+306 silly install resolved     _nodeVersion: 'v0.6.2',
+306 silly install resolved     _defaultsLoaded: true,
+306 silly install resolved     dist:
+306 silly install resolved      { shasum: '0ecaa322a1b3a83fe39ec04a3dac6d3d452679ab',
+306 silly install resolved        tarball: 'http://registry.npmjs.org/MD5/-/MD5-0.0.0.tgz' },
+306 silly install resolved     maintainers: [ [Object] ],
+306 silly install resolved     directories: {},
+306 silly install resolved     deprecated: 'deprecated, use lowercase \'md5@2.x\' from now on',
+306 silly install resolved     _shasum: '0ecaa322a1b3a83fe39ec04a3dac6d3d452679ab',
+306 silly install resolved     _resolved: 'https://registry.npmjs.org/MD5/-/MD5-0.0.0.tgz',
+306 silly install resolved     _from: 'MD5@>=0.0.0 <0.1.0',
+306 silly install resolved     readme: 'ERROR: No README data found!',
+306 silly install resolved     homepage: 'https://github.com/pvorb/node-md5#readme' },
+306 silly install resolved   { name: 'watch',
+306 silly install resolved     description: 'Utilities for watching file trees.',
+306 silly install resolved     tags: [ 'util', 'utility', 'fs', 'files' ],
+306 silly install resolved     version: '0.5.1',
+306 silly install resolved     homepage: 'https://github.com/mikeal/watch',
+306 silly install resolved     bugs: { url: 'https://github.com/mikeal/watch/issues' },
+306 silly install resolved     repository: { type: 'git', url: 'git://github.com/mikeal/watch.git' },
+306 silly install resolved     author: { name: 'Mikeal Rogers', email: 'mikeal.rogers@gmail.com' },
+306 silly install resolved     directories: { lib: 'lib' },
+306 silly install resolved     engines: [ 'node >=0.1.95' ],
+306 silly install resolved     main: './main',
+306 silly install resolved     _npmUser: { name: 'mikeal', email: 'mikeal.rogers@gmail.com' },
+306 silly install resolved     _id: 'watch@0.5.1',
+306 silly install resolved     dependencies: {},
+306 silly install resolved     devDependencies: {},
+306 silly install resolved     optionalDependencies: {},
+306 silly install resolved     _engineSupported: true,
+306 silly install resolved     _npmVersion: '1.1.4',
+306 silly install resolved     _nodeVersion: 'v0.6.8-pre',
+306 silly install resolved     _defaultsLoaded: true,
+306 silly install resolved     dist:
+306 silly install resolved      { shasum: '50ea3a056358c98073e0bca59956de4afd20b213',
+306 silly install resolved        tarball: 'http://registry.npmjs.org/watch/-/watch-0.5.1.tgz' },
+306 silly install resolved     maintainers: [ [Object] ],
+306 silly install resolved     _shasum: '50ea3a056358c98073e0bca59956de4afd20b213',
+306 silly install resolved     _resolved: 'https://registry.npmjs.org/watch/-/watch-0.5.1.tgz',
+306 silly install resolved     _from: 'watch@>=0.5.0 <0.6.0',
+306 silly install resolved     readme: 'ERROR: No README data found!' },
+306 silly install resolved   { name: 'highlight',
+306 silly install resolved     description: 'Highlight code syntax with node.js',
+306 silly install resolved     version: '0.2.4',
+306 silly install resolved     author: { name: 'Andris Reinman' },
+306 silly install resolved     maintainers: [ [Object], [Object] ],
+306 silly install resolved     repository:
+306 silly install resolved      { type: 'git',
+306 silly install resolved        url: 'git+ssh://git@github.com/andris9/highlight.git' },
+306 silly install resolved     directories: { lib: './lib' },
+306 silly install resolved     main: './lib/highlight',
+306 silly install resolved     licenses: [ [Object] ],
+306 silly install resolved     gitHead: 'a955fd043e73a5d304e0987515641f1075bb88b2',
+306 silly install resolved     bugs: { url: 'https://github.com/andris9/highlight/issues' },
+306 silly install resolved     homepage: 'https://github.com/andris9/highlight#readme',
+306 silly install resolved     _id: 'highlight@0.2.4',
+306 silly install resolved     scripts: {},
+306 silly install resolved     _shasum: '8ac02875b03f5935e0675852b76cfe1fd58e0dff',
+306 silly install resolved     _from: 'highlight@>=0.2.0 <0.3.0',
+306 silly install resolved     _npmVersion: '2.11.3',
+306 silly install resolved     _nodeVersion: '0.12.7',
+306 silly install resolved     _npmUser: { name: 'andris', email: 'andris@kreata.ee' },
+306 silly install resolved     dist:
+306 silly install resolved      { shasum: '8ac02875b03f5935e0675852b76cfe1fd58e0dff',
+306 silly install resolved        tarball: 'http://registry.npmjs.org/highlight/-/highlight-0.2.4.tgz' },
+306 silly install resolved     deprecated: 'Not maintained anymore',
+306 silly install resolved     _resolved: 'https://registry.npmjs.org/highlight/-/highlight-0.2.4.tgz',
+306 silly install resolved     readme: 'ERROR: No README data found!' },
+306 silly install resolved   { name: 'gravatar',
+306 silly install resolved     description: 'Gravatar Node.js library',
+306 silly install resolved     keywords: [ 'gravatar', 'avatar', 'package.json' ],
+306 silly install resolved     version: '1.0.6',
+306 silly install resolved     author: { name: 'Emerson Macedo', email: 'emerleite@gmail.com' },
+306 silly install resolved     repository:
+306 silly install resolved      { type: 'git',
+306 silly install resolved        url: 'git://github.com/emerleite/node-gravatar.git' },
+306 silly install resolved     devDependencies: { mocha: '0.7.0', should: '0.4.2' },
+306 silly install resolved     main: 'index.js',
+306 silly install resolved     scripts: { test: 'node_modules/mocha/bin/mocha -R spec' },
+306 silly install resolved     engines: { node: '>=0.4.0' },
+306 silly install resolved     _npmUser: { name: 'emerleite', email: 'emerleite@gmail.com' },
+306 silly install resolved     _id: 'gravatar@1.0.6',
+306 silly install resolved     dependencies: {},
+306 silly install resolved     _engineSupported: true,
+306 silly install resolved     _npmVersion: '1.1.0-beta-10',
+306 silly install resolved     _nodeVersion: 'v0.6.7',
+306 silly install resolved     _defaultsLoaded: true,
+306 silly install resolved     dist:
+306 silly install resolved      { shasum: '7f6fc350c91c38e88b037e2deacaf4328364b08b',
+306 silly install resolved        tarball: 'http://registry.npmjs.org/gravatar/-/gravatar-1.0.6.tgz' },
+306 silly install resolved     maintainers: [ [Object] ],
+306 silly install resolved     directories: {},
+306 silly install resolved     _shasum: '7f6fc350c91c38e88b037e2deacaf4328364b08b',
+306 silly install resolved     _resolved: 'https://registry.npmjs.org/gravatar/-/gravatar-1.0.6.tgz',
+306 silly install resolved     _from: 'gravatar@>=1.0.0 <1.1.0',
+306 silly install resolved     bugs: { url: 'https://github.com/emerleite/node-gravatar/issues' },
+306 silly install resolved     readme: 'ERROR: No README data found!',
+306 silly install resolved     homepage: 'https://github.com/emerleite/node-gravatar#readme' },
+306 silly install resolved   { name: 'mongoose',
+306 silly install resolved     description: 'Mongoose MongoDB ODM',
+306 silly install resolved     version: '2.4.10',
+306 silly install resolved     author: { name: 'Guillermo Rauch', email: 'guillermo@learnboost.com' },
+306 silly install resolved     keywords: [ 'mongodb', 'mongoose', 'orm', 'data', 'datastore', 'nosql' ],
+306 silly install resolved     dependencies: { hooks: '0.1.9', mongodb: '0.9.7-3-5', colors: '0.5.1' },
+306 silly install resolved     devDependencies: { should: '0.2.1', gleak: '0.2.1' },
+306 silly install resolved     directories: { lib: './lib/mongoose' },
+306 silly install resolved     scripts: { test: 'make test' },
+306 silly install resolved     main: './index.js',
+306 silly install resolved     engines: { node: '>= 0.4.0' },
+306 silly install resolved     repository: { type: 'git', url: 'git://github.com/LearnBoost/mongoose.git' },
+306 silly install resolved     _npmUser: { name: 'aaron', email: 'aaron.heckmann+github@gmail.com' },
+306 silly install resolved     _id: 'mongoose@2.4.10',
+306 silly install resolved     _engineSupported: true,
+306 silly install resolved     _npmVersion: '1.0.106',
+306 silly install resolved     _nodeVersion: 'v0.4.12',
+306 silly install resolved     _defaultsLoaded: true,
+306 silly install resolved     dist:
+306 silly install resolved      { shasum: '60fb108776ff260a60708c85f808fef26b825b27',
+306 silly install resolved        tarball: 'http://registry.npmjs.org/mongoose/-/mongoose-2.4.10.tgz' },
+306 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+306 silly install resolved     _shasum: '60fb108776ff260a60708c85f808fef26b825b27',
+306 silly install resolved     _resolved: 'https://registry.npmjs.org/mongoose/-/mongoose-2.4.10.tgz',
+306 silly install resolved     _from: 'mongoose@>=2.4.0 <2.5.0',
+306 silly install resolved     bugs: { url: 'https://github.com/LearnBoost/mongoose/issues' },
+306 silly install resolved     readme: 'ERROR: No README data found!',
+306 silly install resolved     homepage: 'https://github.com/LearnBoost/mongoose#readme' } ]
+307 info install marked@0.1.9 into C:\Users\kanta\Desktop\server\text2.new\node_modules\owl
+308 info install async@0.1.22 into C:\Users\kanta\Desktop\server\text2.new\node_modules\owl
+309 info install MD5@0.0.0 into C:\Users\kanta\Desktop\server\text2.new\node_modules\owl
+310 info install watch@0.5.1 into C:\Users\kanta\Desktop\server\text2.new\node_modules\owl
+311 info install highlight@0.2.4 into C:\Users\kanta\Desktop\server\text2.new\node_modules\owl
+312 info install gravatar@1.0.6 into C:\Users\kanta\Desktop\server\text2.new\node_modules\owl
+313 info install mongoose@2.4.10 into C:\Users\kanta\Desktop\server\text2.new\node_modules\owl
+314 info installOne marked@0.1.9
+315 verbose installOne of marked to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl not in flight; installing
+316 info installOne async@0.1.22
+317 verbose installOne of async to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl not in flight; installing
+318 info installOne MD5@0.0.0
+319 verbose installOne of MD5 to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl not in flight; installing
+320 info installOne watch@0.5.1
+321 verbose installOne of watch to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl not in flight; installing
+322 info installOne highlight@0.2.4
+323 verbose installOne of highlight to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl not in flight; installing
+324 info installOne gravatar@1.0.6
+325 verbose installOne of gravatar to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl not in flight; installing
+326 info installOne mongoose@2.4.10
+327 verbose installOne of mongoose to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl not in flight; installing
+328 verbose lock using C:\Users\kanta\AppData\Roaming\npm-cache\_locks\marked-8135d09d28cc0efe.lock for C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\marked
+329 verbose lock using C:\Users\kanta\AppData\Roaming\npm-cache\_locks\MD5-0e00a98fd4bbaf37.lock for C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5
+330 verbose lock using C:\Users\kanta\AppData\Roaming\npm-cache\_locks\async-afa92fac31f729ab.lock for C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\async
+331 verbose lock using C:\Users\kanta\AppData\Roaming\npm-cache\_locks\watch-4588db2477cf47a9.lock for C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\watch
+332 silly install write writing marked 0.1.9 to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\marked
+333 silly install write writing MD5 0.0.0 to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5
+334 silly install write writing async 0.1.22 to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\async
+335 silly install write writing watch 0.5.1 to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\watch
+336 verbose lock using C:\Users\kanta\AppData\Roaming\npm-cache\_locks\mongoose-cf1a94bdb5e57900.lock for C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose
+337 verbose lock using C:\Users\kanta\AppData\Roaming\npm-cache\_locks\highlight-d50d9c33b4a653ab.lock for C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\highlight
+338 verbose lock using C:\Users\kanta\AppData\Roaming\npm-cache\_locks\gravatar-ef482da1c79672e7.lock for C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\gravatar
+339 silly install write writing mongoose 2.4.10 to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose
+340 silly install write writing highlight 0.2.4 to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\highlight
+341 silly install write writing gravatar 1.0.6 to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\gravatar
+342 verbose unbuild node_modules\owl\node_modules\async
+343 verbose unbuild node_modules\owl\node_modules\MD5
+344 verbose unbuild node_modules\owl\node_modules\watch
+345 verbose unbuild node_modules\owl\node_modules\marked
+346 verbose unbuild node_modules\owl\node_modules\mongoose
+347 silly gentlyRm C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\async is being purged from base C:\Users\kanta\Desktop\server\text2.new
+348 verbose gentlyRm don't care about contents; nuking C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\async
+349 verbose unbuild node_modules\owl\node_modules\highlight
+350 silly gentlyRm C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5 is being purged from base C:\Users\kanta\Desktop\server\text2.new
+351 verbose gentlyRm don't care about contents; nuking C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5
+352 verbose unbuild node_modules\owl\node_modules\gravatar
+353 silly gentlyRm C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\watch is being purged from base C:\Users\kanta\Desktop\server\text2.new
+354 verbose gentlyRm don't care about contents; nuking C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\watch
+355 silly gentlyRm C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\marked is being purged from base C:\Users\kanta\Desktop\server\text2.new
+356 verbose gentlyRm don't care about contents; nuking C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\marked
+357 verbose tar unpack C:\Users\kanta\AppData\Roaming\npm-cache\async\0.1.22\package.tgz
+358 verbose tar unpacking to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\async
+359 silly gentlyRm C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\async is being purged
+360 verbose gentlyRm don't care about contents; nuking C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\async
+361 verbose tar unpack C:\Users\kanta\AppData\Roaming\npm-cache\MD5\0.0.0\package.tgz
+362 verbose tar unpacking to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5
+363 silly gentlyRm C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5 is being purged
+364 verbose gentlyRm don't care about contents; nuking C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5
+365 silly gentlyRm C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose is being purged from base C:\Users\kanta\Desktop\server\text2.new
+366 verbose gentlyRm don't care about contents; nuking C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose
+367 verbose tar unpack C:\Users\kanta\AppData\Roaming\npm-cache\watch\0.5.1\package.tgz
+368 verbose tar unpacking to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\watch
+369 silly gentlyRm C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\watch is being purged
+370 verbose gentlyRm don't care about contents; nuking C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\watch
+371 verbose tar unpack C:\Users\kanta\AppData\Roaming\npm-cache\marked\0.1.9\package.tgz
+372 verbose tar unpacking to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\marked
+373 silly gentlyRm C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\marked is being purged
+374 verbose gentlyRm don't care about contents; nuking C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\marked
+375 silly gunzTarPerm modes [ '777', '666' ]
+376 silly gentlyRm C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\highlight is being purged from base C:\Users\kanta\Desktop\server\text2.new
+377 verbose gentlyRm don't care about contents; nuking C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\highlight
+378 silly gunzTarPerm modes [ '777', '666' ]
+379 silly gentlyRm C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\gravatar is being purged from base C:\Users\kanta\Desktop\server\text2.new
+380 verbose gentlyRm don't care about contents; nuking C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\gravatar
+381 verbose tar unpack C:\Users\kanta\AppData\Roaming\npm-cache\mongoose\2.4.10\package.tgz
+382 verbose tar unpacking to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose
+383 silly gentlyRm C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose is being purged
+384 verbose gentlyRm don't care about contents; nuking C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose
+385 silly gunzTarPerm modes [ '777', '666' ]
+386 silly gunzTarPerm modes [ '777', '666' ]
+387 verbose tar unpack C:\Users\kanta\AppData\Roaming\npm-cache\highlight\0.2.4\package.tgz
+388 verbose tar unpacking to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\highlight
+389 silly gentlyRm C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\highlight is being purged
+390 verbose gentlyRm don't care about contents; nuking C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\highlight
+391 verbose tar unpack C:\Users\kanta\AppData\Roaming\npm-cache\gravatar\1.0.6\package.tgz
+392 verbose tar unpacking to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\gravatar
+393 silly gentlyRm C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\gravatar is being purged
+394 verbose gentlyRm don't care about contents; nuking C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\gravatar
+395 silly gunzTarPerm modes [ '777', '666' ]
+396 silly gunzTarPerm modes [ '777', '666' ]
+397 silly gunzTarPerm modes [ '777', '666' ]
+398 silly gunzTarPerm extractEntry README.mkd
+399 silly gunzTarPerm modified mode [ 'README.mkd', 493, 511 ]
+400 silly gunzTarPerm extractEntry package.json
+401 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+402 silly gunzTarPerm extractEntry .npmignore
+403 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+404 silly gunzTarPerm extractEntry LICENSE
+405 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+406 silly gunzTarPerm extractEntry .npmignore
+407 silly gunzTarPerm modified mode [ '.npmignore', 493, 511 ]
+408 silly gunzTarPerm extractEntry package.json
+409 silly gunzTarPerm modified mode [ 'package.json', 493, 511 ]
+410 silly gunzTarPerm extractEntry .npmignore
+411 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+412 silly gunzTarPerm extractEntry README.md
+413 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+414 silly gunzTarPerm extractEntry lib/
+415 silly gunzTarPerm modified mode [ 'lib/', 493, 511 ]
+416 silly gunzTarPerm extractEntry lib/marked.js
+417 silly gunzTarPerm modified mode [ 'lib/marked.js', 420, 438 ]
+418 silly gunzTarPerm extractEntry main.js
+419 silly gunzTarPerm modified mode [ 'main.js', 420, 438 ]
+420 silly gunzTarPerm extractEntry package.json
+421 silly gunzTarPerm modified mode [ 'package.json', 493, 511 ]
+422 silly gunzTarPerm extractEntry .npmignore
+423 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+424 silly gunzTarPerm extractEntry .gitignore
+425 silly gunzTarPerm modified mode [ '.gitignore', 420, 438 ]
+426 silly gunzTarPerm extractEntry package.json
+427 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+428 silly gunzTarPerm extractEntry .travis.yml
+429 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+430 silly gunzTarPerm extractEntry Changelog.md
+431 silly gunzTarPerm modified mode [ 'Changelog.md', 420, 438 ]
+432 silly gunzTarPerm extractEntry README.md
+433 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+434 silly gunzTarPerm extractEntry index.js
+435 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+436 silly gunzTarPerm extractEntry LICENSE.mkd
+437 silly gunzTarPerm modified mode [ 'LICENSE.mkd', 493, 511 ]
+438 silly gunzTarPerm extractEntry md5.js
+439 silly gunzTarPerm modified mode [ 'md5.js', 493, 511 ]
+440 silly gunzTarPerm extractEntry README.md
+441 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+442 silly gunzTarPerm extractEntry LICENSE
+443 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+444 silly gunzTarPerm extractEntry LICENSE
+445 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+446 silly gunzTarPerm extractEntry index.js
+447 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+448 silly gunzTarPerm extractEntry lib/
+449 silly gunzTarPerm modified mode [ 'lib/', 493, 511 ]
+450 silly gunzTarPerm extractEntry package.json
+451 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+452 silly gunzTarPerm extractEntry History.md
+453 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+454 silly gunzTarPerm extractEntry LICENSE
+455 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+456 silly gunzTarPerm extractEntry Makefile
+457 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+458 silly gunzTarPerm extractEntry readme.mkd
+459 silly gunzTarPerm modified mode [ 'readme.mkd', 420, 438 ]
+460 silly gunzTarPerm extractEntry test/
+461 silly gunzTarPerm modified mode [ 'test/', 493, 511 ]
+462 silly gunzTarPerm extractEntry test/d/
+463 silly gunzTarPerm modified mode [ 'test/d/', 493, 511 ]
+464 silly gunzTarPerm extractEntry test/d/d/
+465 silly gunzTarPerm modified mode [ 'test/d/d/', 493, 511 ]
+466 silly gunzTarPerm extractEntry test/d/d/t
+467 silly gunzTarPerm modified mode [ 'test/d/d/t', 420, 438 ]
+468 silly gunzTarPerm extractEntry test/d/t
+469 silly gunzTarPerm modified mode [ 'test/d/t', 420, 438 ]
+470 silly gunzTarPerm extractEntry test/test_monitor.js
+471 silly gunzTarPerm modified mode [ 'test/test_monitor.js', 420, 438 ]
+472 silly gunzTarPerm extractEntry test/test_watchTree.js
+473 silly gunzTarPerm modified mode [ 'test/test_watchTree.js', 420, 438 ]
+474 silly gunzTarPerm extractEntry bin/package.json
+475 silly gunzTarPerm modified mode [ 'bin/package.json', 420, 438 ]
+476 silly gunzTarPerm extractEntry bin/highlight-cli.js
+477 silly gunzTarPerm modified mode [ 'bin/highlight-cli.js', 493, 511 ]
+478 silly gunzTarPerm extractEntry lib/gravatar.js
+479 silly gunzTarPerm modified mode [ 'lib/gravatar.js', 420, 438 ]
+480 silly gunzTarPerm extractEntry package.json
+481 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+482 silly gunzTarPerm extractEntry index.js
+483 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+484 silly gunzTarPerm extractEntry Makefile
+485 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+486 silly gunzTarPerm extractEntry lib/async.js
+487 silly gunzTarPerm modified mode [ 'lib/async.js', 420, 438 ]
+488 silly gunzTarPerm extractEntry package.json
+489 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+490 silly gunzTarPerm extractEntry man/
+491 silly gunzTarPerm modified mode [ 'man/', 493, 511 ]
+492 silly gunzTarPerm extractEntry .gitmodules
+493 silly gunzTarPerm modified mode [ '.gitmodules', 420, 438 ]
+494 silly gunzTarPerm extractEntry Makefile
+495 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+496 silly gunzTarPerm extractEntry examples/schema.js
+497 silly gunzTarPerm modified mode [ 'examples/schema.js', 420, 438 ]
+498 silly gunzTarPerm extractEntry examples/example.js
+499 silly gunzTarPerm modified mode [ 'examples/example.js', 420, 438 ]
+500 silly gunzTarPerm extractEntry examples/should-annotate-xml.js
+501 silly gunzTarPerm modified mode [ 'examples/should-annotate-xml.js', 420, 438 ]
+502 silly gunzTarPerm extractEntry Readme.md
+503 silly gunzTarPerm modified mode [ 'Readme.md', 420, 438 ]
+504 silly gunzTarPerm extractEntry run-tests.js
+505 silly gunzTarPerm modified mode [ 'run-tests.js', 493, 511 ]
+506 silly gunzTarPerm extractEntry docs/populate.md
+507 silly gunzTarPerm modified mode [ 'docs/populate.md', 420, 438 ]
+508 silly gunzTarPerm extractEntry docs/finding-documents.md
+509 silly gunzTarPerm modified mode [ 'docs/finding-documents.md', 420, 438 ]
+510 silly gunzTarPerm extractEntry man/marked.1
+511 silly gunzTarPerm modified mode [ 'man/marked.1', 420, 438 ]
+512 silly gunzTarPerm extractEntry index.js
+513 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+514 silly gunzTarPerm extractEntry examples/should-load-all-languages.js
+515 silly gunzTarPerm modified mode [ 'examples/should-load-all-languages.js', 420, 438 ]
+516 silly gunzTarPerm extractEntry examples/should-load-js-only.js
+517 silly gunzTarPerm modified mode [ 'examples/should-load-js-only.js', 420, 438 ]
+518 silly gunzTarPerm extractEntry test/
+519 silly gunzTarPerm modified mode [ 'test/', 493, 511 ]
+520 silly gunzTarPerm extractEntry test/gravatar.test.js
+521 silly gunzTarPerm modified mode [ 'test/gravatar.test.js', 420, 438 ]
+522 silly gunzTarPerm extractEntry docs/virtuals.md
+523 silly gunzTarPerm modified mode [ 'docs/virtuals.md', 420, 438 ]
+524 silly gunzTarPerm extractEntry docs/indexes.md
+525 silly gunzTarPerm modified mode [ 'docs/indexes.md', 420, 438 ]
+526 silly gunzTarPerm extractEntry docs/middleware.md
+527 silly gunzTarPerm modified mode [ 'docs/middleware.md', 420, 438 ]
+528 silly gunzTarPerm extractEntry bin/
+529 silly gunzTarPerm modified mode [ 'bin/', 493, 511 ]
+530 silly gunzTarPerm extractEntry bin/marked
+531 silly gunzTarPerm modified mode [ 'bin/marked', 493, 511 ]
+532 silly gunzTarPerm extractEntry docs/query.md
+533 silly gunzTarPerm modified mode [ 'docs/query.md', 420, 438 ]
+534 silly gunzTarPerm extractEntry examples/should-load-no-languages.js
+535 silly gunzTarPerm modified mode [ 'examples/should-load-no-languages.js', 420, 438 ]
+536 silly gunzTarPerm extractEntry examples/test.js
+537 silly gunzTarPerm modified mode [ 'examples/test.js', 420, 438 ]
+538 silly gunzTarPerm extractEntry README.md
+539 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+540 silly gunzTarPerm extractEntry docs/methods-statics.md
+541 silly gunzTarPerm modified mode [ 'docs/methods-statics.md', 420, 438 ]
+542 silly gunzTarPerm extractEntry docs/defaults.md
+543 silly gunzTarPerm modified mode [ 'docs/defaults.md', 420, 438 ]
+544 silly gunzTarPerm extractEntry docs/schematypes.md
+545 silly gunzTarPerm modified mode [ 'docs/schematypes.md', 420, 438 ]
+546 silly gunzTarPerm extractEntry docs/embedded-documents.md
+547 silly gunzTarPerm modified mode [ 'docs/embedded-documents.md', 420, 438 ]
+548 silly gunzTarPerm extractEntry examples/example.html
+549 silly gunzTarPerm modified mode [ 'examples/example.html', 420, 438 ]
+550 silly gunzTarPerm extractEntry examples/example.js.html
+551 silly gunzTarPerm modified mode [ 'examples/example.js.html', 420, 438 ]
+552 verbose write writing to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\package.json
+553 silly gunzTarPerm extractEntry docs/querystream.md
+554 silly gunzTarPerm modified mode [ 'docs/querystream.md', 420, 438 ]
+555 silly gunzTarPerm extractEntry docs/model-definition.md
+556 silly gunzTarPerm modified mode [ 'docs/model-definition.md', 420, 438 ]
+557 silly gunzTarPerm extractEntry lib/highlight.js
+558 silly gunzTarPerm modified mode [ 'lib/highlight.js', 420, 438 ]
+559 silly gunzTarPerm extractEntry lib/vendor/highlight.js/README.md
+560 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/README.md', 420, 438 ]
+561 info preinstall MD5@0.0.0
+562 verbose readDependencies loading dependencies from C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\package.json
+563 silly gunzTarPerm extractEntry lib/vendor/highlight.js/LICENSE
+564 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/LICENSE', 420, 438 ]
+565 silly gunzTarPerm extractEntry lib/vendor/highlight.js/highlight.js
+566 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/highlight.js', 420, 438 ]
+567 silly prepareForInstallMany adding charenc@>=0.0.1 from MD5 dependencies
+568 silly prepareForInstallMany adding crypt@>=0.0.1 from MD5 dependencies
+569 verbose readDependencies loading dependencies from C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\package.json
+570 silly gunzTarPerm extractEntry docs/plugins.md
+571 silly gunzTarPerm modified mode [ 'docs/plugins.md', 420, 438 ]
+572 silly gunzTarPerm extractEntry docs/migration-guide.md
+573 silly gunzTarPerm modified mode [ 'docs/migration-guide.md', 420, 438 ]
+574 silly cache add args [ 'charenc@>=0.0.1', null ]
+575 verbose cache add spec charenc@>=0.0.1
+576 silly cache add args [ 'crypt@>=0.0.1', null ]
+577 verbose cache add spec crypt@>=0.0.1
+578 silly cache add parsed spec Result {
+578 silly cache add   raw: 'charenc@>=0.0.1',
+578 silly cache add   scope: null,
+578 silly cache add   name: 'charenc',
+578 silly cache add   rawSpec: '>=0.0.1',
+578 silly cache add   spec: '>=0.0.1',
+578 silly cache add   type: 'range' }
+579 silly addNamed charenc@>=0.0.1
+580 verbose addNamed ">=0.0.1" is a valid semver range for charenc
+581 silly addNameRange { name: 'charenc', range: '>=0.0.1', hasData: false }
+582 silly mapToRegistry name charenc
+583 silly mapToRegistry using default registry
+584 silly mapToRegistry registry https://registry.npmjs.org/
+585 silly mapToRegistry uri https://registry.npmjs.org/charenc
+586 verbose addNameRange registry:https://registry.npmjs.org/charenc not in flight; fetching
+587 silly cache add parsed spec Result {
+587 silly cache add   raw: 'crypt@>=0.0.1',
+587 silly cache add   scope: null,
+587 silly cache add   name: 'crypt',
+587 silly cache add   rawSpec: '>=0.0.1',
+587 silly cache add   spec: '>=0.0.1',
+587 silly cache add   type: 'range' }
+588 silly addNamed crypt@>=0.0.1
+589 verbose addNamed ">=0.0.1" is a valid semver range for crypt
+590 silly addNameRange { name: 'crypt', range: '>=0.0.1', hasData: false }
+591 silly mapToRegistry name crypt
+592 silly mapToRegistry using default registry
+593 silly mapToRegistry registry https://registry.npmjs.org/
+594 silly mapToRegistry uri https://registry.npmjs.org/crypt
+595 verbose addNameRange registry:https://registry.npmjs.org/crypt not in flight; fetching
+596 silly gunzTarPerm extractEntry docs/validation.md
+597 silly gunzTarPerm modified mode [ 'docs/validation.md', 420, 438 ]
+598 silly gunzTarPerm extractEntry docs/getters-setters.md
+599 silly gunzTarPerm modified mode [ 'docs/getters-setters.md', 420, 438 ]
+600 verbose write writing to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\async\package.json
+601 verbose request uri https://registry.npmjs.org/charenc
+602 verbose request no auth needed
+603 info attempt registry request try #1 at 10:34:46
+604 verbose etag "56QWGF6L07H5HVAFRB2ZA83YH"
+605 http request GET https://registry.npmjs.org/charenc
+606 verbose request uri https://registry.npmjs.org/crypt
+607 verbose request no auth needed
+608 info attempt registry request try #1 at 10:34:46
+609 verbose etag "645DM9B0EL8881WN2UNM01P0E"
+610 http request GET https://registry.npmjs.org/crypt
+611 silly gunzTarPerm extractEntry lib/vendor/highlight.js/highlight.pack.js
+612 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/highlight.pack.js', 420, 438 ]
+613 silly gunzTarPerm extractEntry lib/vendor/highlight.js/highlight_src.js
+614 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/highlight_src.js', 420, 438 ]
+615 info preinstall async@0.1.22
+616 verbose write writing to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\watch\package.json
+617 verbose write writing to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\gravatar\package.json
+618 verbose readDependencies loading dependencies from C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\async\package.json
+619 silly gunzTarPerm extractEntry docs/errors.md
+620 silly gunzTarPerm modified mode [ 'docs/errors.md', 420, 438 ]
+621 silly gunzTarPerm extractEntry benchmarks/index.js
+622 silly gunzTarPerm modified mode [ 'benchmarks/index.js', 420, 438 ]
+623 info preinstall watch@0.5.1
+624 info preinstall gravatar@1.0.6
+625 verbose readDependencies loading dependencies from C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\async\package.json
+626 verbose readDependencies loading dependencies from C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\watch\package.json
+627 verbose readDependencies loading dependencies from C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\gravatar\package.json
+628 silly gunzTarPerm extractEntry lib/vendor/highlight.js/classref.txt
+629 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/classref.txt', 420, 438 ]
+630 silly gunzTarPerm extractEntry lib/vendor/highlight.js/export.html
+631 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/export.html', 420, 438 ]
+632 silly gunzTarPerm extractEntry benchmarks/mem.js
+633 silly gunzTarPerm modified mode [ 'benchmarks/mem.js', 420, 438 ]
+634 silly gunzTarPerm extractEntry benchmarks/clone.js
+635 silly gunzTarPerm modified mode [ 'benchmarks/clone.js', 420, 438 ]
+636 silly install resolved []
+637 verbose about to build C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\async
+638 info build C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\async
+639 verbose readDependencies loading dependencies from C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\watch\package.json
+640 verbose readDependencies loading dependencies from C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\gravatar\package.json
+641 info linkStuff async@0.1.22
+642 silly linkStuff async@0.1.22 has C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules as its parent node_modules
+643 verbose write writing to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\marked\package.json
+644 silly gunzTarPerm extractEntry lib/vendor/highlight.js/AUTHORS.ru.txt
+645 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/AUTHORS.ru.txt', 420, 438 ]
+646 silly gunzTarPerm extractEntry lib/vendor/highlight.js/AUTHORS.en.txt
+647 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/AUTHORS.en.txt', 420, 438 ]
+648 silly install resolved []
+649 verbose about to build C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\watch
+650 info build C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\watch
+651 silly install resolved []
+652 verbose about to build C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\gravatar
+653 info build C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\gravatar
+654 verbose linkBins async@0.1.22
+655 verbose linkMans async@0.1.22
+656 verbose rebuildBundles async@0.1.22
+657 info install async@0.1.22
+658 info postinstall async@0.1.22
+659 info linkStuff watch@0.5.1
+660 silly linkStuff watch@0.5.1 has C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules as its parent node_modules
+661 info linkStuff gravatar@1.0.6
+662 silly linkStuff gravatar@1.0.6 has C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules as its parent node_modules
+663 info preinstall marked@0.1.9
+664 verbose linkBins watch@0.5.1
+665 verbose linkMans watch@0.5.1
+666 verbose rebuildBundles watch@0.5.1
+667 verbose linkBins gravatar@1.0.6
+668 verbose linkMans gravatar@1.0.6
+669 verbose rebuildBundles gravatar@1.0.6
+670 verbose unlock done using C:\Users\kanta\AppData\Roaming\npm-cache\_locks\async-afa92fac31f729ab.lock for C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\async
+671 info install watch@0.5.1
+672 info install gravatar@1.0.6
+673 verbose readDependencies loading dependencies from C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\marked\package.json
+674 info postinstall watch@0.5.1
+675 info postinstall gravatar@1.0.6
+676 verbose unlock done using C:\Users\kanta\AppData\Roaming\npm-cache\_locks\watch-4588db2477cf47a9.lock for C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\watch
+677 silly gunzTarPerm extractEntry lib/vendor/highlight.js/README.ru.md
+678 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/README.ru.md', 420, 438 ]
+679 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/1c.js
+680 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/1c.js', 420, 438 ]
+681 verbose unlock done using C:\Users\kanta\AppData\Roaming\npm-cache\_locks\gravatar-ef482da1c79672e7.lock for C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\gravatar
+682 verbose readDependencies loading dependencies from C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\marked\package.json
+683 silly install resolved []
+684 verbose about to build C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\marked
+685 info build C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\marked
+686 info linkStuff marked@0.1.9
+687 silly linkStuff marked@0.1.9 has C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules as its parent node_modules
+688 verbose linkBins marked@0.1.9
+689 verbose link bins [ { marked: './bin/marked' },
+689 verbose link bins   'C:\\Users\\kanta\\Desktop\\server\\text2.new\\node_modules\\owl\\node_modules\\.bin',
+689 verbose link bins   false ]
+690 verbose linkMans marked@0.1.9
+691 verbose rebuildBundles marked@0.1.9
+692 silly gunzTarPerm extractEntry test/schema.test.js
+693 silly gunzTarPerm modified mode [ 'test/schema.test.js', 420, 438 ]
+694 silly gunzTarPerm extractEntry test/model.stream.test.js
+695 silly gunzTarPerm modified mode [ 'test/model.stream.test.js', 420, 438 ]
+696 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/haskell.js
+697 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/haskell.js', 420, 438 ]
+698 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/ini.js
+699 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/ini.js', 420, 438 ]
+700 info install marked@0.1.9
+701 info postinstall marked@0.1.9
+702 verbose unlock done using C:\Users\kanta\AppData\Roaming\npm-cache\_locks\marked-8135d09d28cc0efe.lock for C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\marked
+703 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/java.js
+704 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/java.js', 420, 438 ]
+705 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/javascript.js
+706 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/javascript.js', 420, 438 ]
+707 silly gunzTarPerm extractEntry test/types.buffer.test.js
+708 silly gunzTarPerm modified mode [ 'test/types.buffer.test.js', 420, 438 ]
+709 silly gunzTarPerm extractEntry test/types.documentarray.test.js
+710 silly gunzTarPerm modified mode [ 'test/types.documentarray.test.js', 420, 438 ]
+711 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/go.js
+712 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/go.js', 420, 438 ]
+713 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/lua.js
+714 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/lua.js', 420, 438 ]
+715 silly gunzTarPerm extractEntry test/model.ref.test.js
+716 silly gunzTarPerm modified mode [ 'test/model.ref.test.js', 420, 438 ]
+717 silly gunzTarPerm extractEntry test/types.document.test.js
+718 silly gunzTarPerm modified mode [ 'test/types.document.test.js', 420, 438 ]
+719 silly gunzTarPerm extractEntry test/schema.onthefly.test.js
+720 silly gunzTarPerm modified mode [ 'test/schema.onthefly.test.js', 420, 438 ]
+721 silly gunzTarPerm extractEntry test/common.js
+722 silly gunzTarPerm modified mode [ 'test/common.js', 420, 438 ]
+723 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/mel.js
+724 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/mel.js', 420, 438 ]
+725 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/nginx.js
+726 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/nginx.js', 420, 438 ]
+727 silly gunzTarPerm extractEntry test/types.array.test.js
+728 silly gunzTarPerm modified mode [ 'test/types.array.test.js', 420, 438 ]
+729 silly gunzTarPerm extractEntry test/types.number.test.js
+730 silly gunzTarPerm modified mode [ 'test/types.number.test.js', 420, 438 ]
+731 silly gunzTarPerm extractEntry test/document.test.js
+732 silly gunzTarPerm modified mode [ 'test/document.test.js', 420, 438 ]
+733 silly gunzTarPerm extractEntry test/index.test.js
+734 silly gunzTarPerm modified mode [ 'test/index.test.js', 420, 438 ]
+735 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/objectivec.js
+736 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/objectivec.js', 420, 438 ]
+737 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/parser3.js
+738 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/parser3.js', 420, 438 ]
+739 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/erlang.js
+740 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/erlang.js', 420, 438 ]
+741 silly gunzTarPerm extractEntry test/collection.test.js
+742 silly gunzTarPerm modified mode [ 'test/collection.test.js', 420, 438 ]
+743 silly gunzTarPerm extractEntry test/model.test.js
+744 silly gunzTarPerm modified mode [ 'test/model.test.js', 420, 438 ]
+745 silly gunzTarPerm extractEntry test/dropdb.js
+746 silly gunzTarPerm modified mode [ 'test/dropdb.js', 493, 511 ]
+747 silly gunzTarPerm extractEntry test/connection.test.js
+748 silly gunzTarPerm modified mode [ 'test/connection.test.js', 420, 438 ]
+749 silly gunzTarPerm extractEntry test/namedscope.test.js
+750 silly gunzTarPerm modified mode [ 'test/namedscope.test.js', 420, 438 ]
+751 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/perl.js
+752 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/perl.js', 420, 438 ]
+753 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/erlang-repl.js
+754 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/erlang-repl.js', 420, 438 ]
+755 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/php.js
+756 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/php.js', 420, 438 ]
+757 silly gunzTarPerm extractEntry test/crash.test.js
+758 silly gunzTarPerm modified mode [ 'test/crash.test.js', 420, 438 ]
+759 silly gunzTarPerm extractEntry test/promise.test.js
+760 silly gunzTarPerm modified mode [ 'test/promise.test.js', 420, 438 ]
+761 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/dos.js
+762 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/dos.js', 420, 438 ]
+763 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/profile.js
+764 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/profile.js', 420, 438 ]
+765 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/django.js
+766 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/django.js', 420, 438 ]
+767 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/python.js
+768 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/python.js', 420, 438 ]
+769 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/diff.js
+770 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/diff.js', 420, 438 ]
+771 silly gunzTarPerm extractEntry test/query.test.js
+772 silly gunzTarPerm modified mode [ 'test/query.test.js', 420, 438 ]
+773 silly gunzTarPerm extractEntry test/model.querying.test.js
+774 silly gunzTarPerm modified mode [ 'test/model.querying.test.js', 420, 438 ]
+775 silly gunzTarPerm extractEntry test/utils.test.js
+776 silly gunzTarPerm modified mode [ 'test/utils.test.js', 420, 438 ]
+777 silly gunzTarPerm extractEntry test/zzlast.test.js
+778 silly gunzTarPerm modified mode [ 'test/zzlast.test.js', 420, 438 ]
+779 silly gunzTarPerm extractEntry test/drivers/node-mongodb-native/collection.test.js
+780 silly gunzTarPerm modified mode [ 'test/drivers/node-mongodb-native/collection.test.js',
+780 silly gunzTarPerm   420,
+780 silly gunzTarPerm   438 ]
+781 silly gunzTarPerm extractEntry lib/.document.js.swo
+782 silly gunzTarPerm modified mode [ 'lib/.document.js.swo', 420, 438 ]
+783 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/renderman.js
+784 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/renderman.js', 420, 438 ]
+785 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/delphi.js
+786 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/delphi.js', 420, 438 ]
+787 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/ruby.js
+788 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/ruby.js', 420, 438 ]
+789 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/css.js
+790 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/css.js', 420, 438 ]
+791 silly gunzTarPerm extractEntry lib/schematype.js
+792 silly gunzTarPerm modified mode [ 'lib/schematype.js', 420, 438 ]
+793 silly gunzTarPerm extractEntry lib/statemachine.js
+794 silly gunzTarPerm modified mode [ 'lib/statemachine.js', 420, 438 ]
+795 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/scala.js
+796 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/scala.js', 420, 438 ]
+797 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/cs.js
+798 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/cs.js', 420, 438 ]
+799 silly gunzTarPerm extractEntry lib/utils.js
+800 silly gunzTarPerm modified mode [ 'lib/utils.js', 420, 438 ]
+801 silly gunzTarPerm extractEntry lib/collection.js
+802 silly gunzTarPerm modified mode [ 'lib/collection.js', 420, 438 ]
+803 silly gunzTarPerm extractEntry lib/query.js
+804 silly gunzTarPerm modified mode [ 'lib/query.js', 420, 438 ]
+805 silly gunzTarPerm extractEntry lib/error.js
+806 silly gunzTarPerm modified mode [ 'lib/error.js', 420, 438 ]
+807 silly gunzTarPerm extractEntry lib/namedscope.js
+808 silly gunzTarPerm modified mode [ 'lib/namedscope.js', 420, 438 ]
+809 silly gunzTarPerm extractEntry lib/schema.js
+810 silly gunzTarPerm modified mode [ 'lib/schema.js', 420, 438 ]
+811 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/smalltalk.js
+812 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/smalltalk.js', 420, 438 ]
+813 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/cpp.js
+814 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/cpp.js', 420, 438 ]
+815 silly gunzTarPerm extractEntry lib/document.js
+816 silly gunzTarPerm modified mode [ 'lib/document.js', 420, 438 ]
+817 silly gunzTarPerm extractEntry lib/.query.js.swn
+818 silly gunzTarPerm modified mode [ 'lib/.query.js.swn', 420, 438 ]
+819 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/sql.js
+820 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/sql.js', 420, 438 ]
+821 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/cmake.js
+822 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/cmake.js', 420, 438 ]
+823 silly gunzTarPerm extractEntry lib/schemadefault.js
+824 silly gunzTarPerm modified mode [ 'lib/schemadefault.js', 420, 438 ]
+825 silly gunzTarPerm extractEntry lib/index.js
+826 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 438 ]
+827 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/tex.js
+828 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/tex.js', 420, 438 ]
+829 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/bash.js
+830 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/bash.js', 420, 438 ]
+831 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/vala.js
+832 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/vala.js', 420, 438 ]
+833 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/axapta.js
+834 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/axapta.js', 420, 438 ]
+835 silly gunzTarPerm extractEntry lib/promise.js
+836 silly gunzTarPerm modified mode [ 'lib/promise.js', 420, 438 ]
+837 silly gunzTarPerm extractEntry lib/.query.js.swo
+838 silly gunzTarPerm modified mode [ 'lib/.query.js.swo', 420, 438 ]
+839 silly gunzTarPerm extractEntry lib/.model.js.swn
+840 silly gunzTarPerm modified mode [ 'lib/.model.js.swn', 420, 438 ]
+841 silly gunzTarPerm extractEntry lib/.document.js.swn
+842 silly gunzTarPerm modified mode [ 'lib/.document.js.swn', 420, 438 ]
+843 silly gunzTarPerm extractEntry lib/model.js
+844 silly gunzTarPerm modified mode [ 'lib/model.js', 420, 438 ]
+845 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/vbscript.js
+846 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/vbscript.js', 420, 438 ]
+847 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/avrasm.js
+848 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/avrasm.js', 420, 438 ]
+849 silly gunzTarPerm extractEntry lib/.utils.js.swo
+850 silly gunzTarPerm modified mode [ 'lib/.utils.js.swo', 420, 438 ]
+851 silly gunzTarPerm extractEntry lib/virtualtype.js
+852 silly gunzTarPerm modified mode [ 'lib/virtualtype.js', 420, 438 ]
+853 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/vhdl.js
+854 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/vhdl.js', 420, 438 ]
+855 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/apache.js
+856 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/apache.js', 420, 438 ]
+857 silly gunzTarPerm extractEntry lib/.model.js.swo
+858 silly gunzTarPerm modified mode [ 'lib/.model.js.swo', 420, 438 ]
+859 silly gunzTarPerm extractEntry lib/connection.js
+860 silly gunzTarPerm modified mode [ 'lib/connection.js', 420, 438 ]
+861 silly gunzTarPerm extractEntry lib/querystream.js
+862 silly gunzTarPerm modified mode [ 'lib/querystream.js', 420, 438 ]
+863 silly gunzTarPerm extractEntry lib/schema/string.js
+864 silly gunzTarPerm modified mode [ 'lib/schema/string.js', 420, 438 ]
+865 silly gunzTarPerm extractEntry lib/schema/mixed.js
+866 silly gunzTarPerm modified mode [ 'lib/schema/mixed.js', 420, 438 ]
+867 silly gunzTarPerm extractEntry lib/schema/date.js
+868 silly gunzTarPerm modified mode [ 'lib/schema/date.js', 420, 438 ]
+869 silly gunzTarPerm extractEntry lib/schema/documentarray.js
+870 silly gunzTarPerm modified mode [ 'lib/schema/documentarray.js', 420, 438 ]
+871 silly gunzTarPerm extractEntry lib/schema/index.js
+872 silly gunzTarPerm modified mode [ 'lib/schema/index.js', 420, 438 ]
+873 silly gunzTarPerm extractEntry lib/schema/objectid.js
+874 silly gunzTarPerm modified mode [ 'lib/schema/objectid.js', 420, 438 ]
+875 silly gunzTarPerm extractEntry lib/schema/boolean.js
+876 silly gunzTarPerm modified mode [ 'lib/schema/boolean.js', 420, 438 ]
+877 silly gunzTarPerm extractEntry lib/schema/buffer.js
+878 silly gunzTarPerm modified mode [ 'lib/schema/buffer.js', 420, 438 ]
+879 silly gunzTarPerm extractEntry lib/schema/number.js
+880 silly gunzTarPerm modified mode [ 'lib/schema/number.js', 420, 438 ]
+881 silly gunzTarPerm extractEntry lib/schema/array.js
+882 silly gunzTarPerm modified mode [ 'lib/schema/array.js', 420, 438 ]
+883 silly gunzTarPerm extractEntry lib/types/documentarray.js
+884 silly gunzTarPerm modified mode [ 'lib/types/documentarray.js', 420, 438 ]
+885 silly gunzTarPerm extractEntry lib/types/index.js
+886 silly gunzTarPerm modified mode [ 'lib/types/index.js', 420, 438 ]
+887 silly gunzTarPerm extractEntry lib/types/objectid.js
+888 silly gunzTarPerm modified mode [ 'lib/types/objectid.js', 420, 438 ]
+889 silly gunzTarPerm extractEntry lib/types/embedded.js
+890 silly gunzTarPerm modified mode [ 'lib/types/embedded.js', 420, 438 ]
+891 silly gunzTarPerm extractEntry lib/types/buffer.js
+892 silly gunzTarPerm modified mode [ 'lib/types/buffer.js', 420, 438 ]
+893 silly gunzTarPerm extractEntry lib/types/number.js
+894 silly gunzTarPerm modified mode [ 'lib/types/number.js', 420, 438 ]
+895 silly gunzTarPerm extractEntry lib/types/array.js
+896 silly gunzTarPerm modified mode [ 'lib/types/array.js', 420, 438 ]
+897 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/collection.js
+898 silly gunzTarPerm modified mode [ 'lib/drivers/node-mongodb-native/collection.js', 420, 438 ]
+899 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/objectid.js
+900 silly gunzTarPerm modified mode [ 'lib/drivers/node-mongodb-native/objectid.js', 420, 438 ]
+901 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/binary.js
+902 silly gunzTarPerm modified mode [ 'lib/drivers/node-mongodb-native/binary.js', 420, 438 ]
+903 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/connection.js
+904 silly gunzTarPerm modified mode [ 'lib/drivers/node-mongodb-native/connection.js', 420, 438 ]
+905 silly gunzTarPerm extractEntry support/expresso/.gitignore
+906 silly gunzTarPerm modified mode [ 'support/expresso/.gitignore', 420, 438 ]
+907 silly gunzTarPerm extractEntry support/expresso/package.json
+908 silly gunzTarPerm modified mode [ 'support/expresso/package.json', 420, 438 ]
+909 silly gunzTarPerm extractEntry support/expresso/History.md
+910 silly gunzTarPerm modified mode [ 'support/expresso/History.md', 420, 438 ]
+911 silly gunzTarPerm extractEntry support/expresso/.gitmodules
+912 silly gunzTarPerm modified mode [ 'support/expresso/.gitmodules', 420, 438 ]
+913 silly gunzTarPerm extractEntry support/expresso/Readme.md
+914 silly gunzTarPerm modified mode [ 'support/expresso/Readme.md', 420, 438 ]
+915 silly gunzTarPerm extractEntry support/expresso/Makefile
+916 silly gunzTarPerm modified mode [ 'support/expresso/Makefile', 420, 438 ]
+917 silly gunzTarPerm extractEntry support/expresso/lib/foo.js
+918 silly gunzTarPerm modified mode [ 'support/expresso/lib/foo.js', 420, 438 ]
+919 silly gunzTarPerm extractEntry support/expresso/lib/bar.js
+920 silly gunzTarPerm modified mode [ 'support/expresso/lib/bar.js', 420, 438 ]
+921 silly gunzTarPerm extractEntry support/expresso/bin/expresso
+922 silly gunzTarPerm modified mode [ 'support/expresso/bin/expresso', 493, 511 ]
+923 silly gunzTarPerm extractEntry support/expresso/test/async.test.js
+924 silly gunzTarPerm modified mode [ 'support/expresso/test/async.test.js', 420, 438 ]
+925 silly gunzTarPerm extractEntry support/expresso/test/bar.test.js
+926 silly gunzTarPerm modified mode [ 'support/expresso/test/bar.test.js', 420, 438 ]
+927 silly gunzTarPerm extractEntry support/expresso/test/assert.test.js
+928 silly gunzTarPerm modified mode [ 'support/expresso/test/assert.test.js', 420, 438 ]
+929 silly gunzTarPerm extractEntry support/expresso/test/foo.test.js
+930 silly gunzTarPerm modified mode [ 'support/expresso/test/foo.test.js', 420, 438 ]
+931 silly gunzTarPerm extractEntry support/expresso/test/http.test.js
+932 silly gunzTarPerm modified mode [ 'support/expresso/test/http.test.js', 420, 438 ]
+933 silly gunzTarPerm extractEntry support/expresso/test/serial/async.test.js
+934 silly gunzTarPerm modified mode [ 'support/expresso/test/serial/async.test.js', 420, 438 ]
+935 silly gunzTarPerm extractEntry support/expresso/test/serial/http.test.js
+936 silly gunzTarPerm modified mode [ 'support/expresso/test/serial/http.test.js', 420, 438 ]
+937 silly gunzTarPerm extractEntry support/expresso/docs/index.md
+938 silly gunzTarPerm modified mode [ 'support/expresso/docs/index.md', 420, 438 ]
+939 silly gunzTarPerm extractEntry support/expresso/docs/index.html
+940 silly gunzTarPerm modified mode [ 'support/expresso/docs/index.html', 420, 438 ]
+941 silly gunzTarPerm extractEntry support/expresso/docs/api.html
+942 silly gunzTarPerm modified mode [ 'support/expresso/docs/api.html', 420, 438 ]
+943 silly gunzTarPerm extractEntry support/expresso/docs/layout/foot.html
+944 silly gunzTarPerm modified mode [ 'support/expresso/docs/layout/foot.html', 420, 438 ]
+945 silly gunzTarPerm extractEntry support/expresso/docs/layout/head.html
+946 silly gunzTarPerm modified mode [ 'support/expresso/docs/layout/head.html', 420, 438 ]
+947 silly gunzTarPerm extractEntry support/cli-table/.gitignore
+948 silly gunzTarPerm modified mode [ 'support/cli-table/.gitignore', 420, 438 ]
+949 silly gunzTarPerm extractEntry support/cli-table/README.md
+950 silly gunzTarPerm modified mode [ 'support/cli-table/README.md', 420, 438 ]
+951 silly gunzTarPerm extractEntry support/cli-table/index.js
+952 silly gunzTarPerm modified mode [ 'support/cli-table/index.js', 420, 438 ]
+953 silly gunzTarPerm extractEntry support/cli-table/package.json
+954 silly gunzTarPerm modified mode [ 'support/cli-table/package.json', 420, 438 ]
+955 silly gunzTarPerm extractEntry support/cli-table/History.md
+956 silly gunzTarPerm modified mode [ 'support/cli-table/History.md', 420, 438 ]
+957 silly gunzTarPerm extractEntry support/cli-table/Makefile
+958 silly gunzTarPerm modified mode [ 'support/cli-table/Makefile', 420, 438 ]
+959 silly gunzTarPerm extractEntry support/cli-table/examples/revs.js
+960 silly gunzTarPerm modified mode [ 'support/cli-table/examples/revs.js', 420, 438 ]
+961 silly gunzTarPerm extractEntry support/cli-table/test/common.js
+962 silly gunzTarPerm modified mode [ 'support/cli-table/test/common.js', 420, 438 ]
+963 silly gunzTarPerm extractEntry support/cli-table/test/index.test.js
+964 silly gunzTarPerm modified mode [ 'support/cli-table/test/index.test.js', 420, 438 ]
+965 silly gunzTarPerm extractEntry support/cli-table/lib/cli-table/utils.js
+966 silly gunzTarPerm modified mode [ 'support/cli-table/lib/cli-table/utils.js', 420, 438 ]
+967 silly gunzTarPerm extractEntry support/cli-table/lib/cli-table/index.js
+968 silly gunzTarPerm modified mode [ 'support/cli-table/lib/cli-table/index.js', 420, 438 ]
+969 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/xml.js
+970 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/xml.js', 420, 438 ]
+971 silly gunzTarPerm extractEntry lib/vendor/highlight.js/languages/lisp.js
+972 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/languages/lisp.js', 420, 438 ]
+973 silly gunzTarPerm extractEntry lib/vendor/highlight.js/readme.eng.txt
+974 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/readme.eng.txt', 420, 438 ]
+975 silly gunzTarPerm extractEntry lib/vendor/highlight.js/readme.rus.txt
+976 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/readme.rus.txt', 420, 438 ]
+977 silly gunzTarPerm extractEntry lib/vendor/highlight.js/styles/idea.css
+978 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/styles/idea.css', 420, 438 ]
+979 silly gunzTarPerm extractEntry lib/vendor/highlight.js/styles/ascetic.css
+980 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/styles/ascetic.css', 420, 438 ]
+981 silly gunzTarPerm extractEntry lib/vendor/highlight.js/styles/brown_papersq.png
+982 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/styles/brown_papersq.png', 420, 438 ]
+983 silly gunzTarPerm extractEntry lib/vendor/highlight.js/styles/dark.css
+984 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/styles/dark.css', 420, 438 ]
+985 silly gunzTarPerm extractEntry lib/vendor/highlight.js/styles/default.css
+986 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/styles/default.css', 420, 438 ]
+987 silly gunzTarPerm extractEntry lib/vendor/highlight.js/styles/far.css
+988 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/styles/far.css', 420, 438 ]
+989 silly gunzTarPerm extractEntry lib/vendor/highlight.js/styles/github.css
+990 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/styles/github.css', 420, 438 ]
+991 silly gunzTarPerm extractEntry lib/vendor/highlight.js/styles/brown_paper.css
+992 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/styles/brown_paper.css', 420, 438 ]
+993 silly gunzTarPerm extractEntry lib/vendor/highlight.js/styles/ir_black.css
+994 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/styles/ir_black.css', 420, 438 ]
+995 silly gunzTarPerm extractEntry lib/vendor/highlight.js/styles/magula.css
+996 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/styles/magula.css', 420, 438 ]
+997 silly gunzTarPerm extractEntry lib/vendor/highlight.js/styles/school_book.css
+998 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/styles/school_book.css', 420, 438 ]
+999 silly gunzTarPerm extractEntry lib/vendor/highlight.js/styles/school_book.png
+1000 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/styles/school_book.png', 420, 438 ]
+1001 silly gunzTarPerm extractEntry lib/vendor/highlight.js/styles/sunburst.css
+1002 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/styles/sunburst.css', 420, 438 ]
+1003 silly gunzTarPerm extractEntry lib/vendor/highlight.js/styles/vs.css
+1004 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/styles/vs.css', 420, 438 ]
+1005 silly gunzTarPerm extractEntry lib/vendor/highlight.js/styles/zenburn.css
+1006 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/styles/zenburn.css', 420, 438 ]
+1007 silly gunzTarPerm extractEntry lib/vendor/highlight.js/test.html
+1008 silly gunzTarPerm modified mode [ 'lib/vendor/highlight.js/test.html', 420, 438 ]
+1009 http 304 https://registry.npmjs.org/crypt
+1010 silly get cb [ 304,
+1010 silly get   { date: 'Tue, 10 Nov 2015 06:34:49 GMT',
+1010 silly get     via: '1.1 varnish',
+1010 silly get     'cache-control': 'max-age=60',
+1010 silly get     etag: '"645DM9B0EL8881WN2UNM01P0E"',
+1010 silly get     age: '0',
+1010 silly get     connection: 'keep-alive',
+1010 silly get     'x-served-by': 'cache-fra1225-FRA',
+1010 silly get     'x-cache': 'HIT',
+1010 silly get     'x-cache-hits': '1',
+1010 silly get     'x-timer': 'S1447137289.598268,VS0,VE111',
+1010 silly get     vary: 'Accept' } ]
+1011 verbose etag https://registry.npmjs.org/crypt from cache
+1012 verbose get saving crypt to C:\Users\kanta\AppData\Roaming\npm-cache\registry.npmjs.org\crypt\.cache.json
+1013 silly addNameRange number 2 { name: 'crypt', range: '>=0.0.1', hasData: true }
+1014 silly addNameRange versions [ 'crypt', [ '0.0.0', '0.0.1' ] ]
+1015 silly addNamed crypt@0.0.1
+1016 verbose addNamed "0.0.1" is a plain semver version for crypt
+1017 silly cache afterAdd crypt@0.0.1
+1018 verbose afterAdd C:\Users\kanta\AppData\Roaming\npm-cache\crypt\0.0.1\package\package.json not in flight; writing
+1019 verbose afterAdd C:\Users\kanta\AppData\Roaming\npm-cache\crypt\0.0.1\package\package.json written
+1020 verbose write writing to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\highlight\package.json
+1021 info preinstall highlight@0.2.4
+1022 verbose readDependencies loading dependencies from C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\highlight\package.json
+1023 verbose readDependencies loading dependencies from C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\highlight\package.json
+1024 silly install resolved []
+1025 verbose about to build C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\highlight
+1026 info build C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\highlight
+1027 info linkStuff highlight@0.2.4
+1028 silly linkStuff highlight@0.2.4 has C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules as its parent node_modules
+1029 verbose linkBins highlight@0.2.4
+1030 verbose linkMans highlight@0.2.4
+1031 verbose rebuildBundles highlight@0.2.4
+1032 info install highlight@0.2.4
+1033 info postinstall highlight@0.2.4
+1034 verbose unlock done using C:\Users\kanta\AppData\Roaming\npm-cache\_locks\highlight-d50d9c33b4a653ab.lock for C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\highlight
+1035 http 304 https://registry.npmjs.org/charenc
+1036 silly get cb [ 304,
+1036 silly get   { date: 'Tue, 10 Nov 2015 06:34:49 GMT',
+1036 silly get     via: '1.1 varnish',
+1036 silly get     'cache-control': 'max-age=60',
+1036 silly get     etag: '"56QWGF6L07H5HVAFRB2ZA83YH"',
+1036 silly get     age: '0',
+1036 silly get     connection: 'keep-alive',
+1036 silly get     'x-served-by': 'cache-fra1220-FRA',
+1036 silly get     'x-cache': 'HIT',
+1036 silly get     'x-cache-hits': '1',
+1036 silly get     'x-timer': 'S1447137289.605173,VS0,VE421',
+1036 silly get     vary: 'Accept' } ]
+1037 verbose etag https://registry.npmjs.org/charenc from cache
+1038 verbose get saving charenc to C:\Users\kanta\AppData\Roaming\npm-cache\registry.npmjs.org\charenc\.cache.json
+1039 silly addNameRange number 2 { name: 'charenc', range: '>=0.0.1', hasData: true }
+1040 silly addNameRange versions [ 'charenc', [ '0.0.0', '0.0.1' ] ]
+1041 silly addNamed charenc@0.0.1
+1042 verbose addNamed "0.0.1" is a plain semver version for charenc
+1043 silly cache afterAdd charenc@0.0.1
+1044 verbose afterAdd C:\Users\kanta\AppData\Roaming\npm-cache\charenc\0.0.1\package\package.json not in flight; writing
+1045 verbose afterAdd C:\Users\kanta\AppData\Roaming\npm-cache\charenc\0.0.1\package\package.json written
+1046 silly install resolved [ { author:
+1046 silly install resolved      { name: 'Paul Vorbach',
+1046 silly install resolved        email: 'paul@vorb.de',
+1046 silly install resolved        url: 'http://vorb.de' },
+1046 silly install resolved     name: 'crypt',
+1046 silly install resolved     description: 'utilities for encryption and hashing',
+1046 silly install resolved     tags: [ 'hash', 'security' ],
+1046 silly install resolved     version: '0.0.1',
+1046 silly install resolved     repository: { type: 'git', url: 'git://github.com/pvorb/node-crypt.git' },
+1046 silly install resolved     bugs: { url: 'https://github.com/pvorb/node-crypt/issues' },
+1046 silly install resolved     main: 'crypt.js',
+1046 silly install resolved     engines: { node: '*' },
+1046 silly install resolved     _npmUser: { name: 'pvorb', email: 'paul@vorb.de' },
+1046 silly install resolved     _id: 'crypt@0.0.1',
+1046 silly install resolved     dependencies: {},
+1046 silly install resolved     devDependencies: {},
+1046 silly install resolved     _engineSupported: true,
+1046 silly install resolved     _npmVersion: '1.0.103',
+1046 silly install resolved     _nodeVersion: 'v0.4.12',
+1046 silly install resolved     _defaultsLoaded: true,
+1046 silly install resolved     dist:
+1046 silly install resolved      { shasum: '5f11b21a6c05ef1b5e79708366da6374ece1e6a2',
+1046 silly install resolved        tarball: 'http://registry.npmjs.org/crypt/-/crypt-0.0.1.tgz' },
+1046 silly install resolved     maintainers: [ [Object] ],
+1046 silly install resolved     directories: {},
+1046 silly install resolved     _shasum: '5f11b21a6c05ef1b5e79708366da6374ece1e6a2',
+1046 silly install resolved     _resolved: 'https://registry.npmjs.org/crypt/-/crypt-0.0.1.tgz',
+1046 silly install resolved     _from: 'crypt@>=0.0.1',
+1046 silly install resolved     readme: 'ERROR: No README data found!',
+1046 silly install resolved     homepage: 'https://github.com/pvorb/node-crypt#readme' },
+1046 silly install resolved   { author:
+1046 silly install resolved      { name: 'Paul Vorbach',
+1046 silly install resolved        email: 'paul@vorb.de',
+1046 silly install resolved        url: 'http://vorb.de' },
+1046 silly install resolved     name: 'charenc',
+1046 silly install resolved     description: 'character encoding utilities',
+1046 silly install resolved     tags: [ 'utf8', 'binary', 'byte', 'string' ],
+1046 silly install resolved     version: '0.0.1',
+1046 silly install resolved     repository: { type: 'git', url: 'git://github.com/pvorb/node-charenc.git' },
+1046 silly install resolved     bugs: { url: 'https://github.com/pvorb/node-charenc/issues' },
+1046 silly install resolved     main: 'charenc.js',
+1046 silly install resolved     engines: { node: '*' },
+1046 silly install resolved     _npmUser: { name: 'pvorb', email: 'paul@vorb.de' },
+1046 silly install resolved     _id: 'charenc@0.0.1',
+1046 silly install resolved     dependencies: {},
+1046 silly install resolved     devDependencies: {},
+1046 silly install resolved     _engineSupported: true,
+1046 silly install resolved     _npmVersion: '1.0.103',
+1046 silly install resolved     _nodeVersion: 'v0.4.12',
+1046 silly install resolved     _defaultsLoaded: true,
+1046 silly install resolved     dist:
+1046 silly install resolved      { shasum: '004cff9feaf102382ed12db58dd6f962796d6e88',
+1046 silly install resolved        tarball: 'http://registry.npmjs.org/charenc/-/charenc-0.0.1.tgz' },
+1046 silly install resolved     maintainers: [ [Object] ],
+1046 silly install resolved     directories: {},
+1046 silly install resolved     _shasum: '004cff9feaf102382ed12db58dd6f962796d6e88',
+1046 silly install resolved     _resolved: 'https://registry.npmjs.org/charenc/-/charenc-0.0.1.tgz',
+1046 silly install resolved     _from: 'charenc@>=0.0.1',
+1046 silly install resolved     readme: 'ERROR: No README data found!',
+1046 silly install resolved     homepage: 'https://github.com/pvorb/node-charenc#readme' } ]
+1047 info install crypt@0.0.1 into C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5
+1048 info install charenc@0.0.1 into C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5
+1049 info installOne crypt@0.0.1
+1050 verbose installOne of crypt to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5 not in flight; installing
+1051 info installOne charenc@0.0.1
+1052 verbose installOne of charenc to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5 not in flight; installing
+1053 verbose lock using C:\Users\kanta\AppData\Roaming\npm-cache\_locks\crypt-d5f553f1075b74c9.lock for C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\node_modules\crypt
+1054 verbose lock using C:\Users\kanta\AppData\Roaming\npm-cache\_locks\charenc-a76da8cb4a6cc95c.lock for C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\node_modules\charenc
+1055 silly install write writing crypt 0.0.1 to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\node_modules\crypt
+1056 silly install write writing charenc 0.0.1 to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\node_modules\charenc
+1057 verbose unbuild node_modules\owl\node_modules\MD5\node_modules\crypt
+1058 verbose unbuild node_modules\owl\node_modules\MD5\node_modules\charenc
+1059 silly gentlyRm C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\node_modules\crypt is being purged from base C:\Users\kanta\Desktop\server\text2.new
+1060 verbose gentlyRm don't care about contents; nuking C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\node_modules\crypt
+1061 silly gentlyRm C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\node_modules\charenc is being purged from base C:\Users\kanta\Desktop\server\text2.new
+1062 verbose gentlyRm don't care about contents; nuking C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\node_modules\charenc
+1063 verbose tar unpack C:\Users\kanta\AppData\Roaming\npm-cache\crypt\0.0.1\package.tgz
+1064 verbose tar unpacking to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\node_modules\crypt
+1065 silly gentlyRm C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\node_modules\crypt is being purged
+1066 verbose gentlyRm don't care about contents; nuking C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\node_modules\crypt
+1067 verbose tar unpack C:\Users\kanta\AppData\Roaming\npm-cache\charenc\0.0.1\package.tgz
+1068 verbose tar unpacking to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\node_modules\charenc
+1069 silly gentlyRm C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\node_modules\charenc is being purged
+1070 verbose gentlyRm don't care about contents; nuking C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\node_modules\charenc
+1071 silly gunzTarPerm modes [ '777', '666' ]
+1072 silly gunzTarPerm modes [ '777', '666' ]
+1073 silly gunzTarPerm extractEntry charenc.js
+1074 silly gunzTarPerm modified mode [ 'charenc.js', 420, 438 ]
+1075 silly gunzTarPerm extractEntry package.json
+1076 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+1077 silly gunzTarPerm extractEntry LICENSE.mkd
+1078 silly gunzTarPerm modified mode [ 'LICENSE.mkd', 420, 438 ]
+1079 silly gunzTarPerm extractEntry crypt.js
+1080 silly gunzTarPerm modified mode [ 'crypt.js', 420, 438 ]
+1081 silly gunzTarPerm extractEntry README.mkd
+1082 silly gunzTarPerm modified mode [ 'README.mkd', 420, 438 ]
+1083 silly gunzTarPerm extractEntry package.json
+1084 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+1085 silly gunzTarPerm extractEntry README.js
+1086 silly gunzTarPerm modified mode [ 'README.js', 420, 438 ]
+1087 silly gunzTarPerm extractEntry LICENSE.mkd
+1088 silly gunzTarPerm modified mode [ 'LICENSE.mkd', 420, 438 ]
+1089 verbose write writing to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\node_modules\crypt\package.json
+1090 verbose write writing to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\node_modules\charenc\package.json
+1091 verbose write writing to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\package.json
+1092 info preinstall crypt@0.0.1
+1093 verbose readDependencies loading dependencies from C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\node_modules\crypt\package.json
+1094 info preinstall charenc@0.0.1
+1095 verbose readDependencies loading dependencies from C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\node_modules\crypt\package.json
+1096 verbose readDependencies loading dependencies from C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\node_modules\charenc\package.json
+1097 silly install resolved []
+1098 verbose about to build C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\node_modules\crypt
+1099 info build C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\node_modules\crypt
+1100 verbose readDependencies loading dependencies from C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\node_modules\charenc\package.json
+1101 info preinstall mongoose@2.4.10
+1102 info linkStuff crypt@0.0.1
+1103 silly linkStuff crypt@0.0.1 has C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\node_modules as its parent node_modules
+1104 verbose readDependencies loading dependencies from C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\package.json
+1105 silly install resolved []
+1106 verbose about to build C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\node_modules\charenc
+1107 info build C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\node_modules\charenc
+1108 verbose linkBins crypt@0.0.1
+1109 verbose linkMans crypt@0.0.1
+1110 verbose rebuildBundles crypt@0.0.1
+1111 info install crypt@0.0.1
+1112 info postinstall crypt@0.0.1
+1113 info linkStuff charenc@0.0.1
+1114 silly linkStuff charenc@0.0.1 has C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\node_modules as its parent node_modules
+1115 silly prepareForInstallMany adding hooks@0.1.9 from mongoose dependencies
+1116 silly prepareForInstallMany adding mongodb@0.9.7-3-5 from mongoose dependencies
+1117 silly prepareForInstallMany adding colors@0.5.1 from mongoose dependencies
+1118 verbose readDependencies loading dependencies from C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\package.json
+1119 verbose linkBins charenc@0.0.1
+1120 verbose linkMans charenc@0.0.1
+1121 verbose rebuildBundles charenc@0.0.1
+1122 info install charenc@0.0.1
+1123 verbose unlock done using C:\Users\kanta\AppData\Roaming\npm-cache\_locks\crypt-d5f553f1075b74c9.lock for C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\node_modules\crypt
+1124 info postinstall charenc@0.0.1
+1125 silly cache add args [ 'hooks@0.1.9', null ]
+1126 verbose cache add spec hooks@0.1.9
+1127 silly cache add args [ 'mongodb@0.9.7-3-5', null ]
+1128 verbose cache add spec mongodb@0.9.7-3-5
+1129 silly cache add parsed spec Result {
+1129 silly cache add   raw: 'hooks@0.1.9',
+1129 silly cache add   scope: null,
+1129 silly cache add   name: 'hooks',
+1129 silly cache add   rawSpec: '0.1.9',
+1129 silly cache add   spec: '0.1.9',
+1129 silly cache add   type: 'version' }
+1130 silly addNamed hooks@0.1.9
+1131 verbose addNamed "0.1.9" is a plain semver version for hooks
+1132 silly mapToRegistry name hooks
+1133 silly mapToRegistry using default registry
+1134 silly mapToRegistry registry https://registry.npmjs.org/
+1135 silly mapToRegistry uri https://registry.npmjs.org/hooks
+1136 verbose addNameVersion registry:https://registry.npmjs.org/hooks not in flight; fetching
+1137 silly cache add parsed spec Result {
+1137 silly cache add   raw: 'mongodb@0.9.7-3-5',
+1137 silly cache add   scope: null,
+1137 silly cache add   name: 'mongodb',
+1137 silly cache add   rawSpec: '0.9.7-3-5',
+1137 silly cache add   spec: '0.9.7-3-5',
+1137 silly cache add   type: 'version' }
+1138 silly addNamed mongodb@0.9.7-3-5
+1139 verbose addNamed "0.9.7-3-5" is a plain semver version for mongodb
+1140 silly mapToRegistry name mongodb
+1141 silly mapToRegistry using default registry
+1142 silly mapToRegistry registry https://registry.npmjs.org/
+1143 silly mapToRegistry uri https://registry.npmjs.org/mongodb
+1144 verbose addNameVersion registry:https://registry.npmjs.org/mongodb not in flight; fetching
+1145 silly cache add args [ 'colors@0.5.1', null ]
+1146 verbose cache add spec colors@0.5.1
+1147 silly cache add parsed spec Result {
+1147 silly cache add   raw: 'colors@0.5.1',
+1147 silly cache add   scope: null,
+1147 silly cache add   name: 'colors',
+1147 silly cache add   rawSpec: '0.5.1',
+1147 silly cache add   spec: '0.5.1',
+1147 silly cache add   type: 'version' }
+1148 silly addNamed colors@0.5.1
+1149 verbose addNamed "0.5.1" is a plain semver version for colors
+1150 silly mapToRegistry name colors
+1151 silly mapToRegistry using default registry
+1152 silly mapToRegistry registry https://registry.npmjs.org/
+1153 silly mapToRegistry uri https://registry.npmjs.org/colors
+1154 verbose addNameVersion registry:https://registry.npmjs.org/colors not in flight; fetching
+1155 verbose unlock done using C:\Users\kanta\AppData\Roaming\npm-cache\_locks\charenc-a76da8cb4a6cc95c.lock for C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5\node_modules\charenc
+1156 verbose about to build C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5
+1157 info build C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5
+1158 info linkStuff MD5@0.0.0
+1159 silly linkStuff MD5@0.0.0 has C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules as its parent node_modules
+1160 verbose linkBins MD5@0.0.0
+1161 verbose linkMans MD5@0.0.0
+1162 verbose rebuildBundles MD5@0.0.0
+1163 verbose rebuildBundles [ 'charenc', 'crypt' ]
+1164 info install MD5@0.0.0
+1165 info postinstall MD5@0.0.0
+1166 verbose unlock done using C:\Users\kanta\AppData\Roaming\npm-cache\_locks\MD5-0e00a98fd4bbaf37.lock for C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\MD5
+1167 verbose request uri https://registry.npmjs.org/colors
+1168 verbose request no auth needed
+1169 info attempt registry request try #1 at 10:34:47
+1170 verbose etag "48ML4Y2MP6DVUY11I051M9QSQ"
+1171 http request GET https://registry.npmjs.org/colors
+1172 verbose request uri https://registry.npmjs.org/hooks
+1173 verbose request no auth needed
+1174 info attempt registry request try #1 at 10:34:47
+1175 verbose etag "18JHGG9MBLMFC2UE3KME89ME2"
+1176 http request GET https://registry.npmjs.org/hooks
+1177 verbose request uri https://registry.npmjs.org/mongodb
+1178 verbose request no auth needed
+1179 info attempt registry request try #1 at 10:34:47
+1180 verbose etag "3PY7TY7313TMI00UAX0V9FWBY"
+1181 http request GET https://registry.npmjs.org/mongodb
+1182 http 200 https://registry.npmjs.org/colors
+1183 silly get cb [ 200,
+1183 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1183 silly get     etag: '"AF9TRY9LLDUDCCNCJF5OXVF5V"',
+1183 silly get     'content-type': 'application/json',
+1183 silly get     'cache-control': 'max-age=60',
+1183 silly get     'content-length': '20167',
+1183 silly get     'accept-ranges': 'bytes',
+1183 silly get     date: 'Tue, 10 Nov 2015 06:34:50 GMT',
+1183 silly get     via: '1.1 varnish',
+1183 silly get     age: '34',
+1183 silly get     connection: 'keep-alive',
+1183 silly get     'x-served-by': 'cache-fra1226-FRA',
+1183 silly get     'x-cache': 'HIT',
+1183 silly get     'x-cache-hits': '1',
+1183 silly get     'x-timer': 'S1447137290.348718,VS0,VE0',
+1183 silly get     vary: 'Accept' } ]
+1184 verbose get saving colors to C:\Users\kanta\AppData\Roaming\npm-cache\registry.npmjs.org\colors\.cache.json
+1185 silly mapToRegistry name colors
+1186 silly mapToRegistry using default registry
+1187 silly mapToRegistry registry https://registry.npmjs.org/
+1188 silly mapToRegistry uri https://registry.npmjs.org/colors
+1189 verbose addRemoteTarball https://registry.npmjs.org/colors/-/colors-0.5.1.tgz not in flight; adding
+1190 verbose addRemoteTarball [ 'https://registry.npmjs.org/colors/-/colors-0.5.1.tgz',
+1190 verbose addRemoteTarball   '7d0023eaeb154e8ee9fce75dcb923d0ed1667774' ]
+1191 info retry fetch attempt 1 at 10:34:47
+1192 info attempt registry request try #1 at 10:34:47
+1193 http fetch GET https://registry.npmjs.org/colors/-/colors-0.5.1.tgz
+1194 http fetch 200 https://registry.npmjs.org/colors/-/colors-0.5.1.tgz
+1195 silly fetchAndShaCheck shasum 7d0023eaeb154e8ee9fce75dcb923d0ed1667774
+1196 verbose addTmpTarball C:\Users\kanta\AppData\Local\Temp\npm-15228-ebadf40f\registry.npmjs.org\colors\-\colors-0.5.1.tgz not in flight; adding
+1197 verbose addTmpTarball already have metadata; skipping unpack for colors@0.5.1
+1198 silly cache afterAdd colors@0.5.1
+1199 verbose afterAdd C:\Users\kanta\AppData\Roaming\npm-cache\colors\0.5.1\package\package.json not in flight; writing
+1200 verbose afterAdd C:\Users\kanta\AppData\Roaming\npm-cache\colors\0.5.1\package\package.json written
+1201 http 200 https://registry.npmjs.org/mongodb
+1202 silly get cb [ 200,
+1202 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1202 silly get     etag: '"50MT29AKUM1MZOWXWSCDRTG7X"',
+1202 silly get     'content-type': 'application/json',
+1202 silly get     'cache-control': 'max-age=60',
+1202 silly get     'content-length': '487202',
+1202 silly get     'accept-ranges': 'bytes',
+1202 silly get     date: 'Tue, 10 Nov 2015 06:34:50 GMT',
+1202 silly get     via: '1.1 varnish',
+1202 silly get     age: '23',
+1202 silly get     connection: 'keep-alive',
+1202 silly get     'x-served-by': 'cache-fra1243-FRA',
+1202 silly get     'x-cache': 'HIT',
+1202 silly get     'x-cache-hits': '1',
+1202 silly get     'x-timer': 'S1447137290.373894,VS0,VE2',
+1202 silly get     vary: 'Accept' } ]
+1203 verbose get saving mongodb to C:\Users\kanta\AppData\Roaming\npm-cache\registry.npmjs.org\mongodb\.cache.json
+1204 silly mapToRegistry name mongodb
+1205 silly mapToRegistry using default registry
+1206 silly mapToRegistry registry https://registry.npmjs.org/
+1207 silly mapToRegistry uri https://registry.npmjs.org/mongodb
+1208 verbose addRemoteTarball https://registry.npmjs.org/mongodb/-/mongodb-0.9.7-3-5.tgz not in flight; adding
+1209 verbose addRemoteTarball [ 'https://registry.npmjs.org/mongodb/-/mongodb-0.9.7-3-5.tgz',
+1209 verbose addRemoteTarball   'c474e9d8ac9d78985094f255d2b050f86510e41b' ]
+1210 info retry fetch attempt 1 at 10:34:48
+1211 info attempt registry request try #1 at 10:34:48
+1212 http fetch GET https://registry.npmjs.org/mongodb/-/mongodb-0.9.7-3-5.tgz
+1213 http 200 https://registry.npmjs.org/hooks
+1214 silly get cb [ 200,
+1214 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1214 silly get     etag: '"1MYWOJ91O1JQICLQ2HDUFKRH9"',
+1214 silly get     'content-type': 'application/json',
+1214 silly get     'cache-control': 'max-age=60',
+1214 silly get     'content-length': '80752',
+1214 silly get     'accept-ranges': 'bytes',
+1214 silly get     date: 'Tue, 10 Nov 2015 06:34:50 GMT',
+1214 silly get     via: '1.1 varnish',
+1214 silly get     age: '0',
+1214 silly get     connection: 'keep-alive',
+1214 silly get     'x-served-by': 'cache-fra1230-FRA',
+1214 silly get     'x-cache': 'HIT',
+1214 silly get     'x-cache-hits': '1',
+1214 silly get     'x-timer': 'S1447137290.351430,VS0,VE544',
+1214 silly get     vary: 'Accept' } ]
+1215 verbose get saving hooks to C:\Users\kanta\AppData\Roaming\npm-cache\registry.npmjs.org\hooks\.cache.json
+1216 silly mapToRegistry name hooks
+1217 silly mapToRegistry using default registry
+1218 silly mapToRegistry registry https://registry.npmjs.org/
+1219 silly mapToRegistry uri https://registry.npmjs.org/hooks
+1220 verbose addRemoteTarball https://registry.npmjs.org/hooks/-/hooks-0.1.9.tgz not in flight; adding
+1221 verbose addRemoteTarball [ 'https://registry.npmjs.org/hooks/-/hooks-0.1.9.tgz',
+1221 verbose addRemoteTarball   '5f861def6916a53071d42ba4d0e2da3e76fc04b8' ]
+1222 info retry fetch attempt 1 at 10:34:48
+1223 info attempt registry request try #1 at 10:34:48
+1224 http fetch GET https://registry.npmjs.org/hooks/-/hooks-0.1.9.tgz
+1225 http fetch 200 https://registry.npmjs.org/mongodb/-/mongodb-0.9.7-3-5.tgz
+1226 http fetch 200 https://registry.npmjs.org/hooks/-/hooks-0.1.9.tgz
+1227 silly fetchAndShaCheck shasum 5f861def6916a53071d42ba4d0e2da3e76fc04b8
+1228 verbose addTmpTarball C:\Users\kanta\AppData\Local\Temp\npm-15228-ebadf40f\registry.npmjs.org\hooks\-\hooks-0.1.9.tgz not in flight; adding
+1229 verbose addTmpTarball already have metadata; skipping unpack for hooks@0.1.9
+1230 silly cache afterAdd hooks@0.1.9
+1231 verbose afterAdd C:\Users\kanta\AppData\Roaming\npm-cache\hooks\0.1.9\package\package.json not in flight; writing
+1232 verbose afterAdd C:\Users\kanta\AppData\Roaming\npm-cache\hooks\0.1.9\package\package.json written
+1233 silly fetchAndShaCheck shasum c474e9d8ac9d78985094f255d2b050f86510e41b
+1234 verbose addTmpTarball C:\Users\kanta\AppData\Local\Temp\npm-15228-ebadf40f\registry.npmjs.org\mongodb\-\mongodb-0.9.7-3-5.tgz not in flight; adding
+1235 verbose addTmpTarball already have metadata; skipping unpack for mongodb@0.9.7-3-5
+1236 silly cache afterAdd mongodb@0.9.7-3-5
+1237 verbose afterAdd C:\Users\kanta\AppData\Roaming\npm-cache\mongodb\0.9.7-3-5\package\package.json not in flight; writing
+1238 verbose afterAdd C:\Users\kanta\AppData\Roaming\npm-cache\mongodb\0.9.7-3-5\package\package.json written
+1239 silly install resolved [ { name: 'colors',
+1239 silly install resolved     description: 'get colors in your node.js console like what',
+1239 silly install resolved     version: '0.5.1',
+1239 silly install resolved     author: { name: 'Marak Squires' },
+1239 silly install resolved     repository: { type: 'git', url: 'git://github.com/Marak/colors.js.git' },
+1239 silly install resolved     engines: { node: '>=0.1.90' },
+1239 silly install resolved     main: 'colors',
+1239 silly install resolved     _npmJsonOpts:
+1239 silly install resolved      { file: '/Users/maraksquires/.npm/colors/0.5.1/package/package.json',
+1239 silly install resolved        wscript: false,
+1239 silly install resolved        contributors: false,
+1239 silly install resolved        serverjs: false },
+1239 silly install resolved     _id: 'colors@0.5.1',
+1239 silly install resolved     dependencies: {},
+1239 silly install resolved     devDependencies: {},
+1239 silly install resolved     _engineSupported: true,
+1239 silly install resolved     _npmVersion: '1.0.30',
+1239 silly install resolved     _nodeVersion: 'v0.4.10',
+1239 silly install resolved     _defaultsLoaded: true,
+1239 silly install resolved     dist:
+1239 silly install resolved      { shasum: '7d0023eaeb154e8ee9fce75dcb923d0ed1667774',
+1239 silly install resolved        tarball: 'http://registry.npmjs.org/colors/-/colors-0.5.1.tgz' },
+1239 silly install resolved     maintainers: [ [Object] ],
+1239 silly install resolved     directories: {},
+1239 silly install resolved     _shasum: '7d0023eaeb154e8ee9fce75dcb923d0ed1667774',
+1239 silly install resolved     _resolved: 'https://registry.npmjs.org/colors/-/colors-0.5.1.tgz',
+1239 silly install resolved     _from: 'colors@0.5.1' },
+1239 silly install resolved   { name: 'hooks',
+1239 silly install resolved     description: 'Adds pre and post hook functionality to your JavaScript methods.',
+1239 silly install resolved     version: '0.1.9',
+1239 silly install resolved     keywords: [ 'node', 'hooks', 'middleware', 'pre', 'post' ],
+1239 silly install resolved     homepage: 'https://github.com/bnoguchi/hooks-js/',
+1239 silly install resolved     repository: { type: 'git', url: 'git://github.com/bnoguchi/hooks-js.git' },
+1239 silly install resolved     author:
+1239 silly install resolved      { name: 'Brian Noguchi',
+1239 silly install resolved        email: 'brian.noguchi@gmail.com',
+1239 silly install resolved        url: 'https://github.com/bnoguchi/' },
+1239 silly install resolved     main: './hooks.js',
+1239 silly install resolved     directories: { lib: '.' },
+1239 silly install resolved     scripts: { test: 'make test' },
+1239 silly install resolved     dependencies: {},
+1239 silly install resolved     devDependencies: { expresso: '>=0.7.6', should: '>=0.2.1', underscore: '>=1.1.4' },
+1239 silly install resolved     engines: { node: '>=0.4.0' },
+1239 silly install resolved     licenses: [ 'MIT' ],
+1239 silly install resolved     _npmJsonOpts:
+1239 silly install resolved      { file: '/home/briannoguchi/.npm/hooks/0.1.9/package/package.json',
+1239 silly install resolved        wscript: false,
+1239 silly install resolved        contributors: false,
+1239 silly install resolved        serverjs: false },
+1239 silly install resolved     _id: 'hooks@0.1.9',
+1239 silly install resolved     _engineSupported: true,
+1239 silly install resolved     _npmVersion: '1.0.15',
+1239 silly install resolved     _nodeVersion: 'v0.4.9',
+1239 silly install resolved     _defaultsLoaded: true,
+1239 silly install resolved     dist:
+1239 silly install resolved      { shasum: '5f861def6916a53071d42ba4d0e2da3e76fc04b8',
+1239 silly install resolved        tarball: 'http://registry.npmjs.org/hooks/-/hooks-0.1.9.tgz' },
+1239 silly install resolved     _shasum: '5f861def6916a53071d42ba4d0e2da3e76fc04b8',
+1239 silly install resolved     _resolved: 'https://registry.npmjs.org/hooks/-/hooks-0.1.9.tgz',
+1239 silly install resolved     _from: 'hooks@0.1.9' },
+1239 silly install resolved   { name: 'mongodb',
+1239 silly install resolved     description: 'A node.js driver for MongoDB',
+1239 silly install resolved     keywords: [ 'mongodb', 'mongo', 'driver', 'db' ],
+1239 silly install resolved     version: '0.9.7-3-5',
+1239 silly install resolved     author: { name: 'Christian Amor Kvalheim', email: 'christkv@gmail.com' },
+1239 silly install resolved     contributors:
+1239 silly install resolved      [ [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object],
+1239 silly install resolved        [Object] ],
+1239 silly install resolved     repository:
+1239 silly install resolved      { type: 'git',
+1239 silly install resolved        url: 'git://github.com/christkv/node-mongodb-native.git' },
+1239 silly install resolved     bugs:
+1239 silly install resolved      { email: 'node-mongodb-native@googlegroups.com',
+1239 silly install resolved        url: 'http://github.com/christkv/node-mongodb-native/issues' },
+1239 silly install resolved     os: [ 'linux', 'darwin', 'freebsd' ],
+1239 silly install resolved     config: { native: false },
+1239 silly install resolved     main: './lib/mongodb/index',
+1239 silly install resolved     directories: { lib: './lib/mongodb' },
+1239 silly install resolved     engines: { node: '>=0.4.0' },
+1239 silly install resolved     scripts: { install: 'node install.js' },
+1239 silly install resolved     licenses: [ [Object] ],
+1239 silly install resolved     _npmUser: { name: 'christkv', email: 'christkv@gmail.com' },
+1239 silly install resolved     _id: 'mongodb@0.9.7-3-5',
+1239 silly install resolved     dependencies: {},
+1239 silly install resolved     devDependencies: {},
+1239 silly install resolved     _engineSupported: true,
+1239 silly install resolved     _npmVersion: '1.1.0-beta-4',
+1239 silly install resolved     _nodeVersion: 'v0.6.0',
+1239 silly install resolved     _defaultsLoaded: true,
+1239 silly install resolved     dist:
+1239 silly install resolved      { shasum: 'c474e9d8ac9d78985094f255d2b050f86510e41b',
+1239 silly install resolved        tarball: 'http://registry.npmjs.org/mongodb/-/mongodb-0.9.7-3-5.tgz' },
+1239 silly install resolved     maintainers: [ [Object] ],
+1239 silly install resolved     _shasum: 'c474e9d8ac9d78985094f255d2b050f86510e41b',
+1239 silly install resolved     _resolved: 'https://registry.npmjs.org/mongodb/-/mongodb-0.9.7-3-5.tgz',
+1239 silly install resolved     _from: 'mongodb@0.9.7-3-5' } ]
+1240 info install colors@0.5.1 into C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose
+1241 info install hooks@0.1.9 into C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose
+1242 info install mongodb@0.9.7-3-5 into C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose
+1243 info installOne colors@0.5.1
+1244 verbose installOne of colors to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose not in flight; installing
+1245 info installOne hooks@0.1.9
+1246 verbose installOne of hooks to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose not in flight; installing
+1247 info installOne mongodb@0.9.7-3-5
+1248 verbose installOne of mongodb to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose not in flight; installing
+1249 verbose lock using C:\Users\kanta\AppData\Roaming\npm-cache\_locks\colors-b10a5fcc31c51c50.lock for C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules\colors
+1250 verbose lock using C:\Users\kanta\AppData\Roaming\npm-cache\_locks\hooks-65683f7073e34311.lock for C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules\hooks
+1251 silly install write writing colors 0.5.1 to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules\colors
+1252 verbose lock using C:\Users\kanta\AppData\Roaming\npm-cache\_locks\mongodb-86a5da955e77d90a.lock for C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules\mongodb
+1253 silly install write writing hooks 0.1.9 to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules\hooks
+1254 verbose unlock done using C:\Users\kanta\AppData\Roaming\npm-cache\_locks\mongodb-86a5da955e77d90a.lock for C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules\mongodb
+1255 verbose unbuild node_modules\owl\node_modules\mongoose\node_modules\colors
+1256 verbose unbuild node_modules\owl\node_modules\mongoose\node_modules\hooks
+1257 silly gentlyRm C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules\colors is being purged from base C:\Users\kanta\Desktop\server\text2.new
+1258 verbose gentlyRm don't care about contents; nuking C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules\colors
+1259 silly gentlyRm C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules\hooks is being purged from base C:\Users\kanta\Desktop\server\text2.new
+1260 verbose gentlyRm don't care about contents; nuking C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules\hooks
+1261 verbose tar unpack C:\Users\kanta\AppData\Roaming\npm-cache\colors\0.5.1\package.tgz
+1262 verbose tar unpacking to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules\colors
+1263 silly gentlyRm C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules\colors is being purged
+1264 verbose gentlyRm don't care about contents; nuking C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules\colors
+1265 verbose tar unpack C:\Users\kanta\AppData\Roaming\npm-cache\hooks\0.1.9\package.tgz
+1266 verbose tar unpacking to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules\hooks
+1267 silly gentlyRm C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules\hooks is being purged
+1268 verbose gentlyRm don't care about contents; nuking C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules\hooks
+1269 silly gunzTarPerm modes [ '777', '666' ]
+1270 silly gunzTarPerm modes [ '777', '666' ]
+1271 silly gunzTarPerm extractEntry colors.js
+1272 silly gunzTarPerm modified mode [ 'colors.js', 420, 438 ]
+1273 silly gunzTarPerm extractEntry hooks.alt.js
+1274 silly gunzTarPerm modified mode [ 'hooks.alt.js', 420, 438 ]
+1275 silly gunzTarPerm extractEntry example.html
+1276 silly gunzTarPerm modified mode [ 'example.html', 420, 438 ]
+1277 silly gunzTarPerm extractEntry example.js
+1278 silly gunzTarPerm modified mode [ 'example.js', 420, 438 ]
+1279 silly gunzTarPerm extractEntry Makefile
+1280 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+1281 silly gunzTarPerm extractEntry hooks.js
+1282 silly gunzTarPerm modified mode [ 'hooks.js', 420, 438 ]
+1283 silly gunzTarPerm extractEntry MIT-LICENSE.txt
+1284 silly gunzTarPerm modified mode [ 'MIT-LICENSE.txt', 420, 438 ]
+1285 silly gunzTarPerm extractEntry package.json
+1286 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+1287 silly gunzTarPerm extractEntry test.js
+1288 silly gunzTarPerm modified mode [ 'test.js', 420, 438 ]
+1289 silly gunzTarPerm extractEntry .npmignore
+1290 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+1291 silly gunzTarPerm extractEntry .gitignore
+1292 silly gunzTarPerm modified mode [ '.gitignore', 420, 438 ]
+1293 silly gunzTarPerm extractEntry README.md
+1294 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+1295 silly gunzTarPerm extractEntry package.json
+1296 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+1297 silly gunzTarPerm extractEntry ReadMe.md
+1298 silly gunzTarPerm modified mode [ 'ReadMe.md', 420, 438 ]
+1299 verbose write writing to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules\colors\package.json
+1300 info preinstall colors@0.5.1
+1301 verbose readDependencies loading dependencies from C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules\colors\package.json
+1302 verbose readDependencies loading dependencies from C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules\colors\package.json
+1303 verbose write writing to C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules\hooks\package.json
+1304 silly install resolved []
+1305 verbose about to build C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules\colors
+1306 info build C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules\colors
+1307 info linkStuff colors@0.5.1
+1308 silly linkStuff colors@0.5.1 has C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules as its parent node_modules
+1309 verbose linkBins colors@0.5.1
+1310 verbose linkMans colors@0.5.1
+1311 verbose rebuildBundles colors@0.5.1
+1312 info install colors@0.5.1
+1313 info preinstall hooks@0.1.9
+1314 info postinstall colors@0.5.1
+1315 verbose readDependencies loading dependencies from C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules\hooks\package.json
+1316 verbose unlock done using C:\Users\kanta\AppData\Roaming\npm-cache\_locks\colors-b10a5fcc31c51c50.lock for C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules\colors
+1317 verbose readDependencies loading dependencies from C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules\hooks\package.json
+1318 silly install resolved []
+1319 verbose about to build C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules\hooks
+1320 info build C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules\hooks
+1321 info linkStuff hooks@0.1.9
+1322 silly linkStuff hooks@0.1.9 has C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules as its parent node_modules
+1323 verbose linkBins hooks@0.1.9
+1324 verbose linkMans hooks@0.1.9
+1325 verbose rebuildBundles hooks@0.1.9
+1326 info install hooks@0.1.9
+1327 info postinstall hooks@0.1.9
+1328 verbose unlock done using C:\Users\kanta\AppData\Roaming\npm-cache\_locks\hooks-65683f7073e34311.lock for C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose\node_modules\hooks
+1329 verbose about to build C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose
+1330 verbose unlock done using C:\Users\kanta\AppData\Roaming\npm-cache\_locks\mongoose-cf1a94bdb5e57900.lock for C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose
+1331 verbose about to build C:\Users\kanta\Desktop\server\text2.new\node_modules\owl
+1332 verbose unlock done using C:\Users\kanta\AppData\Roaming\npm-cache\_locks\owl-7ab9f5b1fe33354c.lock for C:\Users\kanta\Desktop\server\text2.new\node_modules\owl
+1333 verbose stack Error: Unsupported
+1333 verbose stack     at checkPlatform (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-install-checks\index.js:47:14)
+1333 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+1333 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+1333 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:18:7
+1333 verbose stack     at checkEngine (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-install-checks\index.js:26:10)
+1333 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+1333 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+1333 verbose stack     at chain (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+1333 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:1038:5
+1333 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\utils\locker.js:39:7
+1334 verbose pkgid mongodb@0.9.7-3-5
+1335 verbose cwd C:\Users\kanta\Desktop\server\text2.new
+1336 error Windows_NT 10.0.10240
+1337 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "owl"
+1338 error node v4.1.1
+1339 error npm  v2.14.4
+1340 error code EBADPLATFORM
+1341 error notsup Unsupported
+1341 error notsup Not compatible with your operating system or architecture: mongodb@0.9.7-3-5
+1341 error notsup Valid OS:    linux,darwin,freebsd
+1341 error notsup Valid Arch:  any
+1341 error notsup Actual OS:   win32
+1341 error notsup Actual Arch: x64
+1342 verbose exit [ 1, true ]
+1343 verbose unbuild node_modules\owl\node_modules\mongoose
+1344 info preuninstall mongoose@2.4.10
+1345 info uninstall mongoose@2.4.10
+1346 verbose unbuild rmStuff mongoose@2.4.10 from C:\Users\kanta\Desktop\server\text2.new\node_modules
+1347 verbose unbuild rmStuff in C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules
+1348 info postuninstall mongoose@2.4.10
+1349 silly gentlyRm C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose is being purged from base C:\Users\kanta\Desktop\server\text2.new
+1350 verbose gentlyRm don't care about contents; nuking C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose
+1351 silly vacuum-fs purging C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules\mongoose
+1352 silly vacuum-fs quitting because other entries in C:\Users\kanta\Desktop\server\text2.new\node_modules\owl\node_modules
+1353 verbose unbuild node_modules\owl
+1354 info preuninstall owl@0.0.6
+1355 info uninstall owl@0.0.6
+1356 verbose unbuild rmStuff owl@0.0.6 from C:\Users\kanta\Desktop\server\text2.new\node_modules
+1357 info postuninstall owl@0.0.6
+1358 silly gentlyRm C:\Users\kanta\Desktop\server\text2.new\node_modules\owl is being purged from base C:\Users\kanta\Desktop\server\text2.new
+1359 verbose gentlyRm don't care about contents; nuking C:\Users\kanta\Desktop\server\text2.new\node_modules\owl
+1360 silly vacuum-fs purging C:\Users\kanta\Desktop\server\text2.new\node_modules\owl
+1361 silly vacuum-fs removing C:\Users\kanta\Desktop\server\text2.new\node_modules
+1362 silly vacuum-fs finished vacuuming up to C:\Users\kanta\Desktop\server\text2.new
